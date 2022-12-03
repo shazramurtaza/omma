@@ -1,0 +1,518 @@
+{%- assign current_variant = product.selected_or_first_available_variant -%}
+<div class="product-section-top main-row">
+ 
+ <div class="inner-row"> 
+  <div class="product-section-top-text-block">
+    <div class="heading">{{ section.settings.heading_big }}</div>
+    {% if section.settings.sub_heading_big != blank %}<div class="devdesc-top-short" style="font-size: {{ section.settings.sub_heading_fs }}px; color: {{ section.settings.sub_heading_color }};">{{ section.settings.sub_heading_big }}</div> {% endif %}
+    {% if section.settings.sub_heading2_big != blank %}<div class="desc-top-short" style="font-size: {{ section.settings.sub_heading2_fs }}px; color: {{ section.settings.sub_heading2_color }};">{{ section.settings.sub_heading2_big }}</div>{% endif %}
+    <div class="reviews"></div>
+    <div class="quote-text" style="font-size: {{ section.settings.quote-text_fs }}px; color: {{ section.settings.quote-text_color }};">{{ section.settings.review_text }}</div>
+    <div class="adc-button">
+       {% if section.settings.atc_button %}
+         {% capture 'product_id_attr' %}js-product-form--{{ product.id }}{% endcapture %}
+                                        {% form 'product', product, class: "product-form product-form--single js-product-form", id:product_id_attr %}
+        <form action="/cart/add" method="post" id="product-form- {{ product.id }}">
+<input type="hidden" name="id" value="{{ product.variants.first.id }}">
+<div class="top-section-atc">
+  <button type="submit" name="add" class="c-btn c-btn--full primary product-form__add-btn js-product-add">Add to cart</button>
+        </div>
+      </form>
+                                          {% endform %}
+ {% endif %}
+      {% if section.settings.publication_heading %}
+<div class="publications-products">
+  <div class="publications-title">AS SEEN IN:</div>
+  <div class="publications-images-list">
+   {% for block in section.blocks %}
+  <div class="publications-image">{% if block.settings.image != blank %}<img class="publications-image__img" src="{{ block.settings.image | img_url: '1080x' }}" alt="{{ block.settings.image.alt }}" loading="lazy" />{% endif %}</div>
+{% if section.blocks.size > 3 %}
+   <style>
+     .publications-image {
+   
+      line-height: 1;
+  width: calc(33.3333% - 20px);
+}
+.publications-images-list{
+
+      flex-wrap: wrap;
+}
+    </style>
+    {% endif %}
+    {% endfor %}
+  </div>
+      </div>
+{% endif %}
+      
+    </div>
+  </div>
+ 
+  <div class="product-section-top-image-block">
+    <div class="product-section-top-image-row">
+                                                            <div class="product-form__img">
+                                                                
+                                                                    <img class="product-form__img__img" src="{{ section.settings.image | img_url: '1080x' }}" alt="{{ section.settings.image.alt }}" loading="lazy" />
+                                                        {% if section.settings.image_pulse_show %}{% if section.settings.image != blank %}<div class="c-home-hero-image__pulse">{% if section.settings.pulse_circle_show %}<img src="{{ section.settings.pulse_image | img_url: '900x' }}" alt="Patch">{% endif %}
+                <div class="c-home-hero-image__pulse-inner"></div>
+              </div>{% endif %}{% endif %}
+                                                            </div>
+                                                     
+    </div>
+  </div>
+  </div>
+  {% if section.settings.show_scrl %}
+  <div class="scroll-text">
+    <a href="#scroller-section" style="color: {{ section.settings.scroll-text_color }};">  
+    <div class="flex-div"><svg width="2" height="35" viewBox="0 0 2 54" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 0V54" stroke="{{ section.settings.scroll-text_color }}"/></svg><div class="text">SCROLL</div></div>
+    </a>
+      </div>
+{% endif %}
+</div>
+
+<style>
+  {% if section.settings.pulse_circle_show == false %}
+  @media only screen and (min-width: 1300px){
+.c-home-hero-image__pulse-inner {
+    width: 48px;
+    height: 48px;
+}
+}
+    {% endif %}}
+  {% if section.settings.image_show == false %}
+   #{{ page_title | handle }} .product-section-top .product-form__img__img{
+         visibility: hidden;
+   }
+     {% endif %}
+   {% if section.settings.image_side_show %}
+ #{{ page_title | handle }} .product-section-top.main-row:after {
+    background: url({{ section.settings.image_side | img_url: '600x' }});
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: ' ';
+    position: absolute;
+    top: {{ section.settings.image_side-top }}%;
+    bottom: {{ section.settings.image_side-bottom }}px;
+    left: {{ section.settings.image_side-left }}%;
+    right: calc({{ section.settings.image_side-right }}% - 12%);
+}
+   {% endif %}
+ #{{ page_title | handle }} .product-section-top.main-row:before {
+      {% if section.settings.image_bg_show %}
+    background: url({{ section.settings.image_bg-color | img_url: '1080x' }});
+         {% endif %}
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+ #{{ page_title | handle }} .product-section-top-text-block .heading{
+   color: {{ section.settings.text_color }};
+  }
+  .c-home-hero-image__pulse{
+    position: absolute;
+    top:{{ section.settings.image_pulse-top }}%;
+    left: {{ section.settings.image_pulse-left }}%;
+}
+  {% if section.settings.pulse_image_ani == true %}
+#{{ page_title | handle }} .c-home-hero-image__pulse-inner:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 15%;
+    top: 15% !important;
+    border-radius: 50%;
+    animation: pulse-animation 2s infinite;
+    width: 70%;
+    height: 70%;
+    box-shadow: 0 0 0.75rem -0.15rem #fff;
+}
+  @media only screen and (max-width: 767px){
+  #{{ page_title | handle }} .c-home-hero-image__pulse-inner:after{
+    top: 25% !important;
+  }
+  }
+ {% endif %} 
+#{{ page_title | handle }} .product-section-top-text-block .product-form__add-btn{
+  background: {{ section.settings.atc_btn_bg_col }};
+    color: {{ section.settings.atc_btn_col }};
+    }
+  
+  #shopify-section-{{ section.id }} .product-section-top .heading{
+  font-size: {{ section.settings.desk_heading_fs }}px;
+   letter-spacing: {{ section.settings.desk_heading_ls }}px;
+  }
+  #shopify-section-{{ section.id }} .desc-top-short{
+      
+    }  
+  @media only screen and (max-width: 767px){
+  #shopify-section-{{ section.id }} .product-section-top .heading{
+  font-size: {{ section.settings.heading_fs }}px !important;
+      letter-spacing: {{ section.settings.heading_ls }}px;
+  }
+    #shopify-section-{{ section.id }} .product-section-top .devdesc-top-short{
+      font-size: {{ section.settings.mobi_sub_heading_fs }}px !important;
+    }
+    #shopify-section-{{ section.id }} .product-section-top .desc-top-short{
+      font-size: {{ section.settings.mobi_sub_heading2_fs }}px !important;
+    }
+  }
+  
+
+  
+   
+</style>
+{% schema %}
+{
+    "name": "Header",
+    "class": "js-section__home-intro product-section-top",
+"max_blocks": 5,
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "image_show",
+        "label": "Show Background image",
+        "default": true
+      },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Background image",
+            "info": "2200px width recommended."
+        },
+{
+            "type": "richtext",
+            "id": "heading_big",
+            "label": "Heading",
+"default": "<p>wow<br>patch</p>"
+        },
+       {
+        "type": "range",
+        "id": "desk_heading_ls",
+        "label": "desktop letter spacing",
+        "unit": "px",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 3
+      },
+       {
+        "type": "range",
+        "id": "desk_heading_fs",
+        "label": "Heading font size",
+        "info": "Desktop size",
+        "unit": "px",
+        "min": 0,
+        "max": 200,
+        "step": 2,
+        "default": 10
+      },
+       {
+        "type": "range",
+        "id": "heading_ls",
+        "label": "mobile letter spacing",
+        "unit": "px",
+        "min": 0,
+        "max": 20,
+        "step": 1,
+        "default": 1
+      },
+      {
+        "type": "range",
+        "id": "heading_fs",
+        "label": "Heading font size",
+        "info": "Mobile size",
+        "unit": "px",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 3
+      },
+{
+            "type": "richtext",
+            "id": "sub_heading_big",
+            "label": "Sub Heading",
+            "default": "<p>Accelerates healing, reduces inflamation and swelling</p>"
+        },
+ {
+        "type": "range",
+        "id": "sub_heading_fs",
+        "label": "Sub Heading font size",
+        "unit": "px",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 30
+      },
+       {
+        "type": "range",
+        "id": "mobi_sub_heading_fs",
+        "label": "Sub Heading font size mobile",
+        "unit": "px",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 16
+      },
+      {
+            "type": "richtext",
+            "id": "sub_heading2_big",
+            "label": "Sub Heading 2"
+        },
+ {
+        "type": "range",
+        "id": "sub_heading2_fs",
+        "label": "Sub Heading 2 font size",
+        "unit": "px",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 30
+      },
+      {
+        "type": "range",
+        "id": "mobi_sub_heading2_fs",
+        "label": "Sub Heading 2 font size mobile",
+        "unit": "px",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 30
+      },
+{
+            "type": "richtext",
+            "id": "review_text",
+            "label": "Review text",
+            "default": "<p>“Works like a charm”</p>"
+        },
+ {
+        "type": "range",
+        "id": "quote-text_fs",
+        "label": "Sub Heading font size",
+        "unit": "px",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 20
+      },
+      {
+        "type": "checkbox",
+        "id": "image_bg_show",
+        "label": "Show color Background image",
+        "default": true
+      },
+{
+            "type": "image_picker",
+            "id": "image_bg-color",
+            "label": "background image",
+            "info": "this is for the background color"
+        },
+{
+            "type": "color",
+            "id": "text_color",
+            "label": "Heading color",
+            "default": "#C2C2C2"
+        },
+  {
+            "type": "color",
+            "id": "sub_heading_color",
+            "label": "Sub-heading color",
+            "default": "#000"
+        },
+      {
+            "type": "color",
+            "id": "sub_heading2_color",
+            "label": "Sub-heading 2 color",
+            "default": "#000"
+        },
+      {
+            "type": "color",
+            "id": "quote-text_color",
+            "label": "Review text color",
+            "default": "#000"
+        },
+      {
+        "type": "checkbox",
+        "id": "show_scrl",
+        "label": "Show Scroll down",
+        "default": true
+      },
+       {
+            "type": "color",
+            "id": "scroll-text_color",
+            "label": "Scroll text color",
+            "default": "#000"
+        },
+      {
+            "type": "color",
+            "id": "atc_btn_bg_col",
+            "label": "ATC background",
+            "default": "#000"
+        },
+      {
+            "type": "color",
+            "id": "atc_btn_col",
+            "label": "ATC font color",
+            "default": "#fff"
+        },
+{
+        "type": "header",
+        "content": "Pulse Image"
+      },
+       {
+        "type": "checkbox",
+        "id": "image_pulse_show",
+        "label": "Show below image",
+        "default": true
+      },
+{
+            "type": "image_picker",
+            "id": "pulse_image",
+            "label": "Image",
+            "info": "this is for the image on main image"
+        },
+      {
+        "type": "checkbox",
+        "id": "pulse_circle_show",
+        "label": "Show pulse inner(circle) image",
+        "default": true
+      },
+  {
+        "type": "range",
+        "id": "image_pulse-top",
+        "label": "Top",
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 42
+      },
+   {
+        "type": "range",
+        "id": "image_pulse-left",
+        "label": "Left",
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 40
+      },
+ {
+        "type": "checkbox",
+        "id": "pulse_image_ani",
+        "label": "Pulse animation",
+        "default": true
+      },
+
+ {
+        "type": "header",
+        "content": "Side Image"
+      },
+{
+        "type": "checkbox",
+        "id": "image_side_show",
+        "label": "Show this image",
+        "default": true
+      },
+ {
+            "type": "image_picker",
+            "id": "image_side",
+            "label": "product related image",
+            "info": "this is for the image at the right side of banner"
+        },
+  {
+        "type": "range",
+        "id": "image_side-top",
+        "label": "Top",
+        "unit": "%",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "default": 40
+      },
+   {
+        "type": "range",
+        "id": "image_side-bottom",
+        "label": "Bottom",
+        "unit": "px",
+        "min": 0,
+        "max": 500,
+        "step": 5,
+        "default": 100
+      },
+   {
+        "type": "range",
+        "id": "image_side-left",
+        "label": "Left",
+        "unit": "%",
+        "min": 0,
+        "max": 80,
+        "step": 1,
+        "default": 70
+      },
+   {
+        "type": "range",
+        "id": "image_side-right",
+        "label": "Right",
+        "unit": "%",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "default": 0
+      },
+{
+        "type": "header",
+        "content": "Publication Images"
+      },
+
+ {
+        "type": "checkbox",
+        "id": "publication_heading",
+        "label": "Publication image",
+"info": "turn publication block on/off",
+        "default": true
+      },
+{
+        "type": "checkbox",
+        "id": "atc_button",
+        "label": "Add to Cart",
+"info": "turn ATC button on/off",
+        "default": true
+      }
+    
+    ],
+
+ "blocks": [
+ {
+            "type": "image",
+            "name": "publication Image",
+            "settings": [
+
+
+ {
+        "type": "header",
+        "content": "Publication Images"
+      },
+{
+            "type": "image_picker",
+            "id": "image",
+            "label": "image"
+        }
+]
+}
+],
+    
+    "presets": [
+        {
+            "name": "product-top-section"
+            
+        }
+    ]
+}
+{% endschema %}

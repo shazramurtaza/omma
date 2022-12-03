@@ -1,0 +1,1202 @@
+{
+  "sections": {
+    "165227681898b5418e": {
+      "type": "omma-product-section-top",
+      "blocks": {
+        "68b73645-2c8d-41c5-8abe-747f3e51ddec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SEVENTEEN_d0c3c0f9-c7fa-45a0-9d04-dfcecac78dc5.webp"
+          }
+        },
+        "baddf82a-3cf9-4551-b3ff-54c332de741b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COSMOPOLITAN.webp"
+          }
+        },
+        "b86c3cc6-5707-4b39-9c10-1a8fcfb646eb": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "e6d2066c-a29d-4173-989d-27ab9575ecbd": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "68b73645-2c8d-41c5-8abe-747f3e51ddec",
+        "baddf82a-3cf9-4551-b3ff-54c332de741b",
+        "b86c3cc6-5707-4b39-9c10-1a8fcfb646eb",
+        "e6d2066c-a29d-4173-989d-27ab9575ecbd"
+      ],
+      "settings": {
+        "image_show": true,
+        "image": "shopify:\/\/shop_images\/hydro_header_banner_2.webp",
+        "heading_big": "<p>wow patch<\/p>",
+        "desk_heading_ls": 4,
+        "desk_heading_fs": 36,
+        "heading_ls": 3,
+        "heading_fs": 30,
+        "sub_heading_big": "<p>Your go-to solution for clearing late-stage whiteheads overnight<\/p>",
+        "sub_heading_fs": 15,
+        "mobi_sub_heading_fs": 15,
+        "sub_heading2_big": "<p><strong>Look your best with the future of blemish care<\/strong><\/p>",
+        "sub_heading2_fs": 50,
+        "mobi_sub_heading2_fs": 23,
+        "review_text": "<p><em>\"I wish I had discovered pimple patches years ago because they are definitely a game changer!\"<\/em><\/p>",
+        "quote-text_fs": 14,
+        "image_bg_show": false,
+        "image_bg-color": "shopify:\/\/shop_images\/Group_48_11.png",
+        "text_color": "#212121",
+        "sub_heading_color": "#212121",
+        "sub_heading2_color": "#000000",
+        "quote-text_color": "#212121",
+        "show_scrl": true,
+        "scroll-text_color": "#212121",
+        "atc_btn_bg_col": "#000000",
+        "atc_btn_col": "#ffffff",
+        "image_pulse_show": true,
+        "pulse_image": "shopify:\/\/shop_images\/Group_15.png",
+        "pulse_circle_show": false,
+        "image_pulse-top": 56,
+        "image_pulse-left": 43,
+        "pulse_image_ani": true,
+        "image_side_show": true,
+        "image_side": "shopify:\/\/shop_images\/Hydrocolloid__Pattern_-_grey_b2610ed3-fc35-4d68-a566-8392cac5b6bd.png",
+        "image_side-top": 37,
+        "image_side-bottom": 60,
+        "image_side-left": 74,
+        "image_side-right": 0,
+        "publication_heading": true,
+        "atc_button": false
+      }
+    },
+    "main": {
+      "type": "omma-main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_notice": true,
+            "show_separator": false,
+            "low_stock_img": "shopify:\/\/shop_images\/IconExclamation.png",
+            "low_stock": "<p>BLACK FRIDAY: <strong>20% OFF + Free Shipping<\/strong><\/p>",
+            "low_stock_fs": 13,
+            "low_stock_col": "#000000",
+            "limited_time_img": "shopify:\/\/shop_images\/gift-solid.png",
+            "limited_time": "<p>BUY 2 GET 3: third product is FREE<\/p>",
+            "limited_time_fs": 13,
+            "limited_time_col": "#df489e",
+            "limited_time_bg_col": "rgba(0,0,0,0)"
+          }
+        },
+        "84cd918d-24e6-4ee4-91b2-91a21eea7695": {
+          "type": "dev_tab",
+          "settings": {
+            "tab_head_fs": 15,
+            "tab_1_title": "Benefits",
+            "tab_content_1": "<p>✓ <strong>Extracts and flattens surfaced pimples in less than 6 hours<br\/><\/strong>✓ <strong>Infused with acne-clearing Salicylic Acid<br\/><\/strong>✓ <strong>Protects against skin picking and prevents post-zit scarring<br\/><\/strong>✓ Accelerates healing, reduces inflammation and pain<br\/>✓ They blend in with the skin to the point where you can’t really tell that you even have them on<\/p><p><strong>✓ Save money in the long run! <br\/><\/strong>Just think about how much you’ll save by stopping using tiring acne routines with creams that struggle to reach deep below the skin.<\/p>",
+            "tab_content_1_fs": 15,
+            "tab_content_1_col": "#262626",
+            "tab_content_1_lh": 21,
+            "tab_2_title": "Description",
+            "tab_content_2": "<p>Invisible 10 mm patches with <strong>active Hydrocolloid<\/strong>, great for extracting pus and clearing whiteheads, protecting the area while your skin heals.<\/p><p>Infused with <strong>acne-fighting Salicylic Acid<\/strong>, the pimple patch will flatten pimples overnight and reduce redness. <\/p>",
+            "tab_content_2_fs": 15,
+            "tab_content_2_col": "#262626",
+            "tab_content_2_lh": 21,
+            "tab_3_title": "INCI",
+            "tab_content_3": "<p>Unique Formula of Active Ingredients:<br\/><br\/>Hydrocolloid, Salicylic Acid, Centella Asiatica Extract<\/p>",
+            "tab_content_3_fs": 15,
+            "tab_content_3_col": "#262626",
+            "tab_content_3_lh": 21,
+            "tab_4_title": "Shipping",
+            "tab_content_4": "<p>Availability:<br\/>• Official Launch Limited Time Offer<br\/>Shipping info:<br\/>• Standard Official Launch shipping: <strong>FREE<\/strong>, 3 to 4 Business days<br\/>• Express shipping: $15, 1 and 2 Business days<\/p><p>Shipping protection for your package is available.<\/p>",
+            "tab_content_4_fs": 15,
+            "tab_content_4_col": "#262626",
+            "tab_content_4_lh": 21,
+            "tab_5_title": "What you get",
+            "tab_content_5": "<p>WOW Patch Box includes:<br\/><br\/><strong>72 pcs <\/strong>x<strong> 10 mm <\/strong>Invisible Hydrocolloid Blemish Patches<br\/>(One box containing 6 sealed pouches with 12 patches each)<\/p>",
+            "tab_content_5_fs": 15,
+            "tab_content_5_col": "#262626",
+            "tab_content_5_lh": 21,
+            "tab_6_title": "",
+            "tab_content_6": "",
+            "tab_content_6_fs": 15,
+            "tab_content_6_col": "#262626",
+            "tab_content_6_lh": 21
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "product_variant_style": "buttons",
+            "use_swatch_images": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "inventory_notice": {
+          "type": "inventory_notice",
+          "disabled": true,
+          "settings": {
+            "inventory_limit": 3,
+            "align": "right"
+          }
+        },
+        "c392954d-b177-4c48-83b8-4f6bd908393f": {
+          "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "align": "center"
+          }
+        },
+        "acf3e999-12f7-4013-92bc-e5d054a6e25c": {
+          "type": "review-stars",
+          "disabled": true,
+          "settings": {
+            "align": "left"
+          }
+        },
+        "ce1e2cb4-adb8-492f-88cb-2a63446614f2": {
+          "type": "gurentee",
+          "settings": {
+            "gurentee": "",
+            "gurentee_fs": 13,
+            "gurentee_col": "#75787b",
+            "image": "shopify:\/\/shop_images\/O_payment_methods.webp",
+            "gurentee_img_s": 30
+          }
+        },
+        "82c07ab2-80b8-402e-b182-0cff5e341895": {
+          "type": "icon_text",
+          "settings": {
+            "image_truck": "shopify:\/\/shop_images\/Secure_Payment_Guaranteed_Safe_Checkout.png",
+            "text_truck": "Secure Payment & Guaranteed Safe Checkout",
+            "truck_col": "#212121",
+            "truck_fs": 12,
+            "image_leaf": "shopify:\/\/shop_images\/Risk_Free_60_Days_Money_Back_Guarantee.png",
+            "text_leaf": "Risk Free 30 Days Money Back Guarantee",
+            "leaf_col": "#212121",
+            "leaf_fs": 12
+          }
+        },
+        "7136a8d9-9654-4d89-9ad2-042e185decde": {
+          "type": "icon_box",
+          "disabled": true,
+          "settings": {
+            "icon": false,
+            "text_delivery": "<p>✓ Secure Payment & Guaranteed Safe Checkout<br\/>✓ Risk Free 60 Days Money Back Guarantee<br\/>✓ Official Launch FREE Shipping<\/p>",
+            "d_info_fs": 13,
+            "d_info_col": "#000000",
+            "text_dis": "<p><strong>Save 10%*<\/strong><br\/>on your entire order<\/p>",
+            "text_code": "<p>Use Code at Checkout<br\/><strong>OMMA10<\/strong><\/p>",
+            "disc_bg_col": "#e7e1e1",
+            "dis_l_fs": 16,
+            "dis_l_col": "#000000",
+            "dis_s_fs": 12,
+            "dis_s_col": "#000000",
+            "text_disclaimer": "<p><em>Limited time offer! * Discount codes can not be cumulated<\/em><\/p>",
+            "discl_fs": 12,
+            "discl_col": "#000000",
+            "text_distri": "",
+            "distri_fs": 12,
+            "distri_col": "#000000",
+            "distri_bg_col": "rgba(0,0,0,0)"
+          }
+        },
+        "b0b535da-da74-4309-937d-e2d155906741": {
+          "type": "app_bundle",
+          "settings": {
+            "us-sub-title": "Complete kit for all kinds of pimples. 162 patches in total. Best Deal!",
+            "us_bg_col": "#fbedec",
+            "us_ds_bg_col": "#df489e"
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "84cd918d-24e6-4ee4-91b2-91a21eea7695",
+        "variant_picker",
+        "quantity_selector",
+        "inventory_notice",
+        "c392954d-b177-4c48-83b8-4f6bd908393f",
+        "buy_buttons",
+        "share",
+        "acf3e999-12f7-4013-92bc-e5d054a6e25c",
+        "ce1e2cb4-adb8-492f-88cb-2a63446614f2",
+        "82c07ab2-80b8-402e-b182-0cff5e341895",
+        "7136a8d9-9654-4d89-9ad2-042e185decde",
+        "b0b535da-da74-4309-937d-e2d155906741"
+      ],
+      "settings": {
+        "sub_title": "<p>Your go-to solution for clearing late-stage whiteheads overnight, <strong>72 pcs<\/strong><\/p>",
+        "sub_title_fs": 15,
+        "sub_title_col": "#000000",
+        "made_japan": false,
+        "made_korea": false,
+        "sub_title_2": "<p><em> <\/em><\/p>",
+        "sub_title_fs_2": 15,
+        "sub_title_col_2": "#7c7d81",
+        "layout": "classic",
+        "container": "full",
+        "show_breadcrumbs": false,
+        "show_vendor": false,
+        "show_descrip": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_size": "medium",
+        "bg_color": "rgba(0,0,0,0)",
+        "text_color": "default",
+        "bg_height": "default"
+      }
+    },
+    "1658654587957913db": {
+      "type": "section-slideshow",
+      "disabled": true,
+      "blocks": {
+        "16586545877115e7ba-0": {
+          "type": "image",
+          "settings": {
+            "image_alignment": "center",
+            "alignment": "left",
+            "text_color": "default",
+            "title": "mega bundle",
+            "text": "<p>bundle & save $50<\/p>",
+            "link_title": "TRY NOW",
+            "link": "shopify:\/\/products\/wow-patch-mega-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "16586545877115e7ba-0"
+      ],
+      "settings": {
+        "slideshow_style": "minimal",
+        "title_size": 3,
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "slideshow_height": "medium",
+        "slideshow_width": "contained",
+        "overlay_strength": 10
+      }
+    },
+    "165246186138d0d856": {
+      "type": "section-image-grid",
+      "disabled": true,
+      "blocks": {
+        "16524618613c0391c5-0": {
+          "type": "image",
+          "settings": {
+            "bg_color": "rgba(0,0,0,0)",
+            "text_color": "dark",
+            "title": "Rachelle Hodgson",
+            "text": "<p><strong>IG:<\/strong>@rachelles.remedies<br\/><strong>Skin concerns:<\/strong> Acne<br\/><strong>Age:<\/strong> 25<br\/>“Goo Getter is a great way to get all of the goo out of your pimple without having to touch it yourself. It has helped me stop picking my pimples and patch them up with goo getter instead.”<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16524618613c0391c5-0"
+      ],
+      "settings": {
+        "featured": true,
+        "height": "medium",
+        "width": "large",
+        "overlay_strength": 0
+      }
+    },
+    "875f8b19-d2a7-4eb3-bd99-70d271835bd1": {
+      "type": "section-testimonials",
+      "blocks": {
+        "template--16272240115927__875f8b19-d2a7-4eb3-bd99-70d271835bd1-1668701394c533272c-0": {
+          "type": "text",
+          "settings": {
+            "media": "stars",
+            "image_round": false,
+            "text": "<p><em>\"I tend to get many \"overnight\" pimples. I sometimes wake up with white heads on my t-zone area. If I put these patches on in the morning, they get completely drained by evening. It's amazing! I would love to see larger patches for body acne.\"<\/em><\/p>",
+            "name": "Dani",
+            "source": ""
+          }
+        },
+        "template--16272240115927__875f8b19-d2a7-4eb3-bd99-70d271835bd1-1668701394c533272c-1": {
+          "type": "text",
+          "settings": {
+            "media": "stars",
+            "image_round": false,
+            "text": "<p><em>\"Great product. You can actually see it working when you remove the patch in the morning. Really reduces the amount of time you have to deal with pimples.\"<\/em><\/p>",
+            "name": "Sherrie",
+            "source": ""
+          }
+        },
+        "template--16272240115927__875f8b19-d2a7-4eb3-bd99-70d271835bd1-1668701394c533272c-2": {
+          "type": "text",
+          "settings": {
+            "media": "stars",
+            "image_round": false,
+            "text": "<p><em>\"These work wonders! I even forget I have them on. You can't feel them and they are sheer, almost invisible and also stick very well to the skin. I'm African American, so even for my skin tone you can barely see them.\"<\/em><\/p>",
+            "name": "Sheana",
+            "source": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16272240115927__875f8b19-d2a7-4eb3-bd99-70d271835bd1-1668701394c533272c-0",
+        "template--16272240115927__875f8b19-d2a7-4eb3-bd99-70d271835bd1-1668701394c533272c-1",
+        "template--16272240115927__875f8b19-d2a7-4eb3-bd99-70d271835bd1-1668701394c533272c-2"
+      ],
+      "settings": {
+        "title": "",
+        "style_desktop": "grid",
+        "style_mobile": "carousel",
+        "link_title": "",
+        "link": ""
+      }
+    },
+    "1656437560c08cb31b": {
+      "type": "section-text-columns-2",
+      "blocks": {
+        "e2cbdfb4-30db-4ac8-a944-8abbe70602b4": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hydrocolloid_copy.webp",
+            "title": "Hydrocolloid",
+            "sub_title": "",
+            "desc": "<p>A moisture-retentive and self-adhesive agent, which acts as an absorbent waterproof wafer pulling out white puss and healing blemishes.<\/p>"
+          }
+        },
+        "1656437560640a86b1-0": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_21_1.png",
+            "title": "Salicylic Acid",
+            "sub_title": "",
+            "desc": "<p>Clinically proven effective on deep pimples and blackheads and has unique skin-soothing properties.<\/p>"
+          }
+        },
+        "1656437560640a86b1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_22.png",
+            "title": "Niacinamide",
+            "sub_title": "",
+            "desc": "<p>A strong skin-repairing ingredient that significantly reduces enlarged pores and fine lines, and brightens dull, uneven skin.<\/p>"
+          }
+        },
+        "1656437560640a86b1-2": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_3.png",
+            "title": "Centella Asiatica",
+            "sub_title": "",
+            "desc": "<p>Anti-inflammatory, antimicrobial, and antiseptic for combating itchy skin and reducing redness and swelling. Helps reduce acne scars.<\/p>"
+          }
+        },
+        "dbabb6e8-0221-4360-8138-89cf9333ee74": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_4.png",
+            "title": "Tea Tree",
+            "sub_title": "",
+            "desc": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempo.<\/p>"
+          }
+        },
+        "cbd6acbc-d19d-4887-8ef4-18930f6b021b": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_5.png",
+            "title": "Hyaluronic Acid",
+            "sub_title": "",
+            "desc": "<p>Occurs naturally in the skin. It is an excellent moisture binder, hydrates and soothes the skin and prevents moisture loss.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "e2cbdfb4-30db-4ac8-a944-8abbe70602b4",
+        "1656437560640a86b1-0",
+        "1656437560640a86b1-1",
+        "1656437560640a86b1-2",
+        "dbabb6e8-0221-4360-8138-89cf9333ee74",
+        "cbd6acbc-d19d-4887-8ef4-18930f6b021b"
+      ],
+      "settings": {
+        "title": "unique active ingredients",
+        "desc": "<p>OMMA products bear <strong>my heart, my story, my emotions <\/strong>and <strong>the positive energy of my healing <\/strong>combined with <strong>innovative Korean skincare technology <\/strong>and the <strong>power of medicinal herbs <\/strong>and plant-based active ingredients.<\/p>",
+        "content_align": "center",
+        "link_title": "",
+        "link": "",
+        "bg_color": "#f8f7fa"
+      }
+    },
+    "1664636035afa9ee16": {
+      "type": "section-slideshow",
+      "blocks": {
+        "1664636035ffd6b302-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slideshow_hydro_wow_patch_invisible_hydrocolloid_blemish_patch_2048x2048_100p.webp",
+            "image_alignment": "center",
+            "alignment": "left",
+            "text_color": "default",
+            "title": "",
+            "text": "",
+            "link_title": "More info",
+            "link": ""
+          }
+        },
+        "1664636035ffd6b302-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_alignment": "center",
+            "alignment": "left",
+            "text_color": "default",
+            "title": "Image slide",
+            "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.<\/p>",
+            "link_title": "More info",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664636035ffd6b302-0",
+        "1664636035ffd6b302-1"
+      ],
+      "settings": {
+        "slideshow_style": "minimal",
+        "title_size": 3,
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "slideshow_height": "medium",
+        "slideshow_width": "contained",
+        "overlay_strength": 10
+      }
+    },
+    "16530124278e08ecb8": {
+      "type": "section-faq",
+      "blocks": {
+        "165301242720bb74b1-1": {
+          "type": "article",
+          "settings": {
+            "title": "Why is the hydrocolloid pimple patch so effective?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>The hydrocolloid pimple patches work like a charm on those late-stage pimples that are \"ready to blow\" and help remove whiteheads overnight, thus flattening the blemishes.<\/p><p>Our effective formula enhances them with the anti-inflammatory power of Salicylic Acid and the skin-soothing effects of Centella Asiatica.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "165301242720bb74b1-2": {
+          "type": "article",
+          "settings": {
+            "title": "Why you'll love it?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Hydrocolloid is renowned for helping the healing process of pimples and blemishes.<\/p><p>Boosted by the Korean innovative dermato-technology and the unique active ingredients formula, you'll be amazed by the overnight effects of these pimple patches. <\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "165301242720bb74b1-3": {
+          "type": "article",
+          "settings": {
+            "title": "When to use the hydrocolloid patch?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Every time you see a \"ready to blow\" one and want to rapidly heal and \"hide\" it at the same time.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "165301242720bb74b1-5": {
+          "type": "article",
+          "settings": {
+            "title": "How does the hydrocolloid patch works?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>The unique active ingredients formula, containing Hydrocolloid, Centella Asiatica, and Salicylic Acid, will begin its effective action from the moment you apply the pimple patch.<\/p><p>After about 6 hours or less, you can peel it off and notice the WOW effects!<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "60a18731-85f0-4496-87ce-fb5f7eeb22d0": {
+          "type": "article",
+          "disabled": true,
+          "settings": {
+            "title": "What about the price?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>The hydrocolloid pimple patches may seem pricy, but for something so effective, these will actually save you money in the long run! <\/p><p>Just think about how much you’ll save by stopping using tiring acne routines with creams that struggle to reach deep below the skin.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "b7e5ef1f-de69-42b9-819b-972eb0358126": {
+          "type": "article",
+          "settings": {
+            "title": "Free shipping & fulfillment info",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p><strong>We currently offer free shipping for our standard shipping method.<\/strong><\/p><p>We ship from Salt Lake City and all orders are shipped using DHL, USPS or FEDEX. These services are fully trackable once the couriers have your order.<\/p><p><strong>Shipping fees:<\/strong><\/p><p>•<strong>Standard<\/strong> shipping is <strong>FREE<\/strong> for all orders during the Official Launch.<br\/>•For <strong>Express<\/strong> shipping, a flat rate of <strong>$15<\/strong> is charged at checkout.<\/p><p><\/p><p><strong>Transit time:<br\/><\/strong>•For <strong>Standard<\/strong> Free shipping, transit time is usually between <strong>3 and 4 Business Days<\/strong> from when your order is dispatched. <br\/>•For <strong>Express<\/strong> shipping, transit time is usually between <strong>1 and 2 Business Days<\/strong> from when your order is dispatched. <\/p><p><strong>Processing time:<br\/><\/strong>•All orders are processed pending availability and payment verification.<br\/>•Orders are processed in max. 2 working days (orders placed between Friday, 2 pm, and 8 am Monday, will be processed starting on Monday).<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "7397be58-ccf0-4522-9356-1eb3335b62a5": {
+          "type": "article",
+          "settings": {
+            "title": "Sustainability",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Our packaging is FSC Mix, meaning the paper we used within the products comes from FSC-certified material & recycled material.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "30888acb-3914-4daf-83b3-aaa1eb603838": {
+          "type": "article",
+          "settings": {
+            "title": "INCI",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Pentaerythrityl Rosinate, Polyisobutene, Cellulose Gum, Mineral Oil, Centella Asiatica Extract, Aloe Barbadensis Leaf Extract, Madecassoside, Salicylic Acid<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "12299b50-36a6-4380-a45f-9dca8efb1a11": {
+          "type": "article",
+          "settings": {
+            "title": "Why made in South Korea?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Everyone knows South Korea is the innovator in the beauty space and no other comes close in this area.<\/p><p>K-Beauty cosmetics are world-wide renowned for a good reason, as they represent  the perfect combination of science and the power of natural ingredients. <\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "4435b435-df47-40ee-a8de-a17430db5bf4": {
+          "type": "article",
+          "settings": {
+            "title": "Why buy from OMMA?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>It's simple: because the products actually work! <\/p><p>OMMA is not just another skincare brand, its story roots deeply into my life and was created as a pinnacle of my healing journey. You can support a small business while also benefiting from great products crafted with care and passion.<\/p><p>I hope the products we carefully created will help you as much as they helped me.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        }
+      },
+      "block_order": [
+        "165301242720bb74b1-1",
+        "165301242720bb74b1-2",
+        "165301242720bb74b1-3",
+        "165301242720bb74b1-5",
+        "60a18731-85f0-4496-87ce-fb5f7eeb22d0",
+        "b7e5ef1f-de69-42b9-819b-972eb0358126",
+        "7397be58-ccf0-4522-9356-1eb3335b62a5",
+        "30888acb-3914-4daf-83b3-aaa1eb603838",
+        "12299b50-36a6-4380-a45f-9dca8efb1a11",
+        "4435b435-df47-40ee-a8de-a17430db5bf4"
+      ],
+      "settings": {
+        "image_bg-color": "rgba(0,0,0,0)",
+        "title": "what you need to know",
+        "enable_sidebar": false,
+        "side_image_icon": false,
+        "image_side-top": 30,
+        "image_side-bottom": 135,
+        "image_side-left": 72,
+        "image_side-right": 0,
+        "cta_link_title": "Contact us",
+        "cta_link": "",
+        "cta_style": "link"
+      }
+    },
+    "555e21bf-f3e4-4116-8b4e-5689646ee284": {
+      "type": "section-custom",
+      "disabled": true,
+      "blocks": {
+        "template--16272240115927__555e21bf-f3e4-4116-8b4e-5689646ee284-1666712755ccee1f4c-0": {
+          "type": "text",
+          "settings": {
+            "title": "Play the video and see how hydrocolloid work!",
+            "text": "",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "template--16272240115927__555e21bf-f3e4-4116-8b4e-5689646ee284-1666712755ccee1f4c-0"
+      ],
+      "settings": {
+      }
+    },
+    "c6275512-75b3-4e70-ae4e-349d53196d18": {
+      "type": "section-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }<\/style><div class='embed-container'><iframe src='https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/dc8cb862cbe5499cba0cfa431dc747c1.mp4' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen class=\"container container--mob-0\"><\/iframe><\/div>"
+      }
+    },
+    "166463768528210c72": {
+      "type": "section-video",
+      "disabled": true,
+      "blocks": {
+        "1664637685ecd4e32e-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/vimeo.com\/755915058",
+            "video_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664637685ecd4e32e-0"
+      ],
+      "settings": {
+        "title": "See how it works. Press PLAY",
+        "desc": "",
+        "link_title": "",
+        "link": "",
+        "overlay_strength": 0
+      }
+    },
+    "16530122968b8fed0f": {
+      "type": "image-with-text-round",
+      "disabled": true,
+      "blocks": {
+        "439bec46-df07-4f90-ba04-8b215bf53ea9": {
+          "type": "video-image-text",
+          "settings": {
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "<p>wow patch. wow skin. wow mood. wow day.<\/p>",
+            "desc": "<p>OMMA represents the change love can have on your skin, in all its forms.<\/p><p>Join the <strong>#ommajourney.<\/strong> See how it works. Prees PLAY <\/p>",
+            "video_url": "",
+            "image_side_top": 215,
+            "image_side_bottom": 0,
+            "image_side_left": 90,
+            "image_side_right": 0,
+            "cus_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "439bec46-df07-4f90-ba04-8b215bf53ea9"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
+    "16529285447b11895e": {
+      "type": "section-text-columns",
+      "blocks": {
+        "1652928544759d838b-0": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.png",
+            "title": "CRUELTY FREE",
+            "sub_title": "",
+            "desc": ""
+          }
+        },
+        "1652928544759d838b-1": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_38.png",
+            "title": "DERMATO<br>TESTED",
+            "sub_title": "",
+            "desc": ""
+          }
+        },
+        "1652928544759d838b-2": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_2.png",
+            "title": "VEGAN",
+            "sub_title": "",
+            "desc": ""
+          }
+        },
+        "38d932ee-62c1-4949-bbb1-558cb45b76fe": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_13.png",
+            "title": "ACCELERATE<br>HEALING",
+            "sub_title": "",
+            "desc": ""
+          }
+        },
+        "9dcd8ce9-fa51-4234-aa18-7692d4443191": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_3.png",
+            "title": "ALLEVIATE<br>INFLAMATION<br>AND SWELLING",
+            "sub_title": "",
+            "desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652928544759d838b-0",
+        "1652928544759d838b-1",
+        "1652928544759d838b-2",
+        "38d932ee-62c1-4949-bbb1-558cb45b76fe",
+        "9dcd8ce9-fa51-4234-aa18-7692d4443191"
+      ],
+      "settings": {
+        "title": "",
+        "desc": "",
+        "content_align": "center",
+        "link_title": "",
+        "link": "",
+        "bg_color": "rgba(0,0,0,0)"
+      }
+    },
+    "1652964323e1e966a7": {
+      "type": "image-with-text-round",
+      "blocks": {
+        "69cdff31-5f8b-4f50-8035-4023d5f906e4": {
+          "type": "list-style",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hydro_detail.webp",
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "heal them once they show up",
+            "desc_ls_1": "Sucks up the white puss and clears whiteheads",
+            "desc_ls_2": "Hides redness and heals the skin",
+            "desc_ls_3": "Reduces skin picking"
+          }
+        }
+      },
+      "block_order": [
+        "69cdff31-5f8b-4f50-8035-4023d5f906e4"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
+    "1653012316e93b58b5": {
+      "type": "image-with-text-round",
+      "blocks": {
+        "bf972b5d-c572-42fa-ac69-39025406ed18": {
+          "type": "both-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hydro_how_to_section.webp",
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "1.CLEAN AND DRY SPOT",
+            "desc": "<p>Make sure to clean your skin before applying the hydrocolloid pimple patch.<\/p>",
+            "image_sm1": "shopify:\/\/shop_images\/HowToUse1_Hydrocolloid.webp",
+            "title_2": "2. APPLY PATCH FOR 6+ HOURS",
+            "desc_2": "<p>Apply the hydrocolloid pimple patch.<br\/>After 6+ hours, gently peel off and <em>#revealtheinnerbeauty<\/em> through your skin.<\/p>",
+            "image_sm2": "shopify:\/\/shop_images\/HowToUse2_Hydrocolloid.webp"
+          }
+        }
+      },
+      "block_order": [
+        "bf972b5d-c572-42fa-ac69-39025406ed18"
+      ],
+      "settings": {
+        "section_title": "how to use"
+      }
+    },
+    "165301235437849c7b": {
+      "type": "image-with-text-round",
+      "disabled": true,
+      "blocks": {
+        "ed521e74-752a-4406-b77c-f3aa217b0bac": {
+          "type": "video-image-text",
+          "settings": {
+            "bg_color": "#e7e1e1",
+            "title": "<p>ceva<\/p>",
+            "desc": "<p><strong>ceva<\/strong><\/p>",
+            "video_url": "",
+            "image_side_top": 180,
+            "image_side_bottom": 0,
+            "image_side_left": 75,
+            "image_side_right": 0,
+            "cus_class": "side-image-absolute"
+          }
+        }
+      },
+      "block_order": [
+        "ed521e74-752a-4406-b77c-f3aa217b0bac"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
+    "1653012419ae348b11": {
+      "type": "image-with-text-round",
+      "blocks": {
+        "425d8d07-c09b-4c82-bc43-47a5962f6829": {
+          "type": "video-image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hydro_on_finger.webp",
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "<p>real.<br\/>tangible.<br\/>results.<\/p>",
+            "desc": "<p>• You will forget you even have the hydrocolloid patch on since it blends so well with your skin. You may \"accidentally\" wear the hydrocolloid patch out in public. :) <br\/>• They work well to hide redness and aid in healing pimples.<br\/>• They absorb the white puss and clear whiteheads.<\/p>",
+            "video_url": "",
+            "image_side_top": 215,
+            "image_side_bottom": 0,
+            "image_side_left": 90,
+            "image_side_right": 0,
+            "cus_class": "middle-text"
+          }
+        }
+      },
+      "block_order": [
+        "425d8d07-c09b-4c82-bc43-47a5962f6829"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
+    "1661683414ed57a582": {
+      "type": "section-custom",
+      "blocks": {
+        "16616834136e53b2a2-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "1\/2"
+          }
+        }
+      },
+      "block_order": [
+        "16616834136e53b2a2-0"
+      ],
+      "settings": {
+      }
+    },
+    "1661597016b97ac4ec": {
+      "type": "section-custom",
+      "blocks": {
+        "1661597016000b734b-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><\/p><p><strong>OMMA is not just another skincare brand, its story roots deeply into my life and was created as a pinnacle of my healing journey, with the love and support of my husband and partner.<\/strong><\/p><p>I’ve had skin issues for as long as I can remember and it took me years to finally discover the deep root cause of my skin issues and to find the right products that would finally help me heal.<\/p><p>WOW Patch means protection, care, and nurture.<br\/>I hope the products we carefully create will help you as much as they helped me.<br\/><strong>Improve your life and look your best with the future of blemish care<br\/><\/strong><br\/><em>Adrienne | Co-founder of OMMA Cosmetics<\/em><\/p>",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "1\/2"
+          }
+        }
+      },
+      "block_order": [
+        "1661597016000b734b-0"
+      ],
+      "settings": {
+      }
+    },
+    "166159707186f503cb": {
+      "type": "section-custom",
+      "blocks": {
+        "c357feb2-3593-478f-9b52-f205f1c2912e": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><br\/> <\/p>",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "1\/1"
+          }
+        },
+        "1661597070f085341a-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home_page_omma_represents_banner_2200x1500_2.webp",
+            "link": "",
+            "width": "1\/2"
+          }
+        },
+        "1661597070f085341a-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><strong><br\/>OMMA represents the change love can have on your skin, in all its forms.<\/strong><\/p><p>From feeling the <strong>love of your partner<\/strong> who supports you when you’re at your lowest, the <strong>love of a good friend<\/strong> who understands why you may be distant sometimes and encourages you to overcome your suffering, or the <strong>love you have for yourself<\/strong>, your body, your skin, just the way it is – understanding that it’s protecting you the way it knows best.<br\/>Join the <strong>#ommajourney.<\/strong><\/p>",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "1\/2"
+          }
+        }
+      },
+      "block_order": [
+        "c357feb2-3593-478f-9b52-f205f1c2912e",
+        "1661597070f085341a-1",
+        "1661597070f085341a-0"
+      ],
+      "settings": {
+      }
+    },
+    "1652302446add967bd": {
+      "type": "section-image-text-overlay",
+      "disabled": true,
+      "blocks": {
+        "16523024465cdf0d59-0": {
+          "type": "text",
+          "settings": {
+            "text": "mega bundle",
+            "text_sub": "<p>bundle & save $50<\/p>",
+            "link_title": "TRY NOW",
+            "link": "shopify:\/\/products\/wow-patch-mega-bundle"
+          }
+        },
+        "fafb7d73-bac5-445b-b43a-23b2d80802a2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "inline_image": "shopify:\/\/shop_images\/mega.webp",
+            "inline_image_width": 560
+          }
+        }
+      },
+      "block_order": [
+        "16523024465cdf0d59-0",
+        "fafb7d73-bac5-445b-b43a-23b2d80802a2"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/mega.webp",
+        "section_height": "small",
+        "overlay_color": "#ffffff",
+        "overlay_strength": 0,
+        "content_style": "dark"
+      }
+    },
+    "16612568340665c35e": {
+      "type": "section-product",
+      "disabled": true,
+      "blocks": {
+        "65c73164-2ec8-4c69-aa8c-ad10b72dd19f": {
+          "type": "spacer",
+          "settings": {
+            "top": "none",
+            "bottom": "none",
+            "border": true
+          }
+        },
+        "3f54fd79-d4db-47c3-ab0a-4cd4d2676a0b": {
+          "type": "reviews",
+          "settings": {
+            "align": "left"
+          }
+        },
+        "166125683450d09979-0": {
+          "type": "description",
+          "settings": {
+            "desc_text": "<p><strong>Bundle Up and Save $63! Best deal<\/strong> on the market<\/p><p>• Complete acne care with <strong>162 self-dissolving microcrystals & active hydrocolloid <br\/><\/strong>• Designed especially for both the <strong>early stage pimples <\/strong>but also the and <strong>late stage ones<\/strong><\/p>"
+          }
+        },
+        "166125683450d09979-1": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_tax_notice": false,
+            "show_separator": true
+          }
+        },
+        "166125683450d09979-2": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "product_variant_style": "buttons",
+            "use_swatch_images": false
+          }
+        },
+        "166125683450d09979-3": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "166125683450d09979-4": {
+          "type": "inventory_notice",
+          "disabled": true,
+          "settings": {
+            "inventory_limit": 3,
+            "align": "right"
+          }
+        },
+        "166125683450d09979-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": false
+          }
+        },
+        "aae5359a-738c-4df5-9345-fbfa8d15b93f": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "title": "Learn more",
+            "link": "shopify:\/\/products\/wow-patch-mega-bundle",
+            "style": "arrow",
+            "align": "center",
+            "new_tab": false
+          }
+        },
+        "015d148a-abbb-4b7b-a91f-34aeb8921453": {
+          "type": "spacer",
+          "disabled": true,
+          "settings": {
+            "top": "none",
+            "bottom": "none",
+            "border": true
+          }
+        }
+      },
+      "block_order": [
+        "65c73164-2ec8-4c69-aa8c-ad10b72dd19f",
+        "3f54fd79-d4db-47c3-ab0a-4cd4d2676a0b",
+        "166125683450d09979-0",
+        "166125683450d09979-1",
+        "166125683450d09979-2",
+        "166125683450d09979-3",
+        "166125683450d09979-4",
+        "166125683450d09979-5",
+        "aae5359a-738c-4df5-9345-fbfa8d15b93f",
+        "015d148a-abbb-4b7b-a91f-34aeb8921453"
+      ],
+      "settings": {
+        "featured_product": "wow-patch-mega-bundle",
+        "show_vendor": false,
+        "content_align": "default",
+        "enable_video_looping": false
+      }
+    },
+    "1661683292e7332f4c": {
+      "type": "section-image-text",
+      "blocks": {
+        "1661683292abbd5036-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_mega_bundle_wow_patch_hydrocolloid_microcrystal_blemish_patch_2048x2048_100p.webp",
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "Bundle Up & Save $63!",
+            "desc": "<p>• Complete blemish care with <strong>162 self-dissolving microcrystals & active hydrocolloid<br\/><\/strong>• Designed especially for both the <strong>early stage pimples <\/strong>but also the and <strong>late stage ones<\/strong><\/p>",
+            "video": "",
+            "link_title": "Learn more",
+            "link": "shopify:\/\/products\/wow-patch-mega-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "1661683292abbd5036-0"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "related_title": "You may also like",
+        "related_mobile_layout": "grid",
+        "related_grid_num": 2,
+        "grid_mobile": "2",
+        "related_grid_row": 1
+      }
+    },
+    "1653697497d7c4f493": {
+      "type": "apps",
+      "blocks": {
+        "34192c21-1089-485c-b306-7f4dcb9f0711": {
+          "type": "shopify:\/\/apps\/vitals-all-in-one-marketing\/blocks\/product-reviews\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "settings": {
+          }
+        },
+        "6424a47d-80fd-45f0-9c27-dd4af9852c19": {
+          "type": "shopify:\/\/apps\/vitals-all-in-one-marketing\/blocks\/ub-product-bundles\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "34192c21-1089-485c-b306-7f4dcb9f0711",
+        "6424a47d-80fd-45f0-9c27-dd4af9852c19"
+      ],
+      "settings": {
+        "include_margins": false,
+        "bg_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "165227681898b5418e",
+    "main",
+    "1658654587957913db",
+    "165246186138d0d856",
+    "875f8b19-d2a7-4eb3-bd99-70d271835bd1",
+    "1656437560c08cb31b",
+    "1664636035afa9ee16",
+    "16530124278e08ecb8",
+    "555e21bf-f3e4-4116-8b4e-5689646ee284",
+    "c6275512-75b3-4e70-ae4e-349d53196d18",
+    "166463768528210c72",
+    "16530122968b8fed0f",
+    "16529285447b11895e",
+    "1652964323e1e966a7",
+    "1653012316e93b58b5",
+    "165301235437849c7b",
+    "1653012419ae348b11",
+    "1661683414ed57a582",
+    "1661597016b97ac4ec",
+    "166159707186f503cb",
+    "1652302446add967bd",
+    "16612568340665c35e",
+    "1661683292e7332f4c",
+    "product-recommendations",
+    "1653697497d7c4f493"
+  ]
+}

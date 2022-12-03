@@ -1,0 +1,1262 @@
+{
+  "sections": {
+    "165227681898b5418e": {
+      "type": "omma-product-section-top",
+      "blocks": {
+        "a5bdbd61-c1ea-4097-8267-278d2da0f339": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SEVENTEEN_d0c3c0f9-c7fa-45a0-9d04-dfcecac78dc5.webp"
+          }
+        },
+        "106a2f7a-e2ff-4a8b-b187-b29a8dcb1d7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/COSMOPOLITAN.webp"
+          }
+        },
+        "4e448957-d753-4c24-804b-91227b4f1fa4": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "6a6b6869-c567-475a-94a5-1b82116db9e7": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a5bdbd61-c1ea-4097-8267-278d2da0f339",
+        "106a2f7a-e2ff-4a8b-b187-b29a8dcb1d7b",
+        "4e448957-d753-4c24-804b-91227b4f1fa4",
+        "6a6b6869-c567-475a-94a5-1b82116db9e7"
+      ],
+      "settings": {
+        "image_show": true,
+        "image": "shopify:\/\/shop_images\/header_banner_micro_wow_patch_microcrystal_blemish_patch_2048x2048_100p.webp",
+        "heading_big": "<p>wow patch<\/p>",
+        "desk_heading_ls": 4,
+        "desk_heading_fs": 36,
+        "heading_ls": 3,
+        "heading_fs": 30,
+        "sub_heading_big": "<p>Your zit-free emergency kit for reducing early-stage painful & deep pimples<\/p>",
+        "sub_heading_fs": 15,
+        "mobi_sub_heading_fs": 15,
+        "sub_heading2_big": "<p><strong>Look your best with the future of blemish care<\/strong><\/p>",
+        "sub_heading2_fs": 50,
+        "mobi_sub_heading2_fs": 23,
+        "review_text": "<p><em>“The microcrystals dissolved beneath my skin and by the next morning, my chin zit was almost gone.”<\/em><\/p>",
+        "quote-text_fs": 14,
+        "image_bg_show": false,
+        "image_bg-color": "shopify:\/\/shop_images\/Group_47.png",
+        "text_color": "#212121",
+        "sub_heading_color": "#212121",
+        "sub_heading2_color": "#000000",
+        "quote-text_color": "#212121",
+        "show_scrl": true,
+        "scroll-text_color": "#212121",
+        "atc_btn_bg_col": "#000000",
+        "atc_btn_col": "#ffffff",
+        "image_pulse_show": true,
+        "pulse_image": "shopify:\/\/shop_images\/Group_15.png",
+        "pulse_circle_show": false,
+        "image_pulse-top": 59,
+        "image_pulse-left": 50,
+        "pulse_image_ani": true,
+        "image_side_show": true,
+        "image_side": "shopify:\/\/shop_images\/Group_4.png",
+        "image_side-top": 40,
+        "image_side-bottom": 100,
+        "image_side-left": 71,
+        "image_side-right": 0,
+        "publication_heading": true,
+        "atc_button": false
+      }
+    },
+    "main": {
+      "type": "omma-main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_notice": true,
+            "show_separator": false,
+            "low_stock_img": "shopify:\/\/shop_images\/IconExclamation.png",
+            "low_stock": "<p>BLACK FRIDAY: <strong>20% OFF + Free Shipping<\/strong><\/p>",
+            "low_stock_fs": 13,
+            "low_stock_col": "#000000",
+            "limited_time_img": "shopify:\/\/shop_images\/gift-solid.png",
+            "limited_time": "<p>BUY 2 GET 3: third product is FREE<\/p>",
+            "limited_time_fs": 13,
+            "limited_time_col": "#df489e",
+            "limited_time_bg_col": "rgba(0,0,0,0)"
+          }
+        },
+        "84cd918d-24e6-4ee4-91b2-91a21eea7695": {
+          "type": "dev_tab",
+          "settings": {
+            "tab_head_fs": 15,
+            "tab_1_title": "Benefits",
+            "tab_content_1": "<p>✓ <strong>Reduces inflammation and redness after just 6 hours<br\/><\/strong>✓ <strong>Delivers antibacterial ingredients deep below the skin<br\/><\/strong>✓ <strong>Powered by acne-fighting active ingredients<br\/><\/strong>✓ <strong>Protects against skin picking<br\/><\/strong>✓ Rapidly gets stubborn pimples to surface and speeds healing<br\/>✓ Helps heal deep, painful zits<\/p><p><strong>✓ Save money in the long run! <br\/><\/strong>Just think about how much you’ll save by stopping using tiring acne routines with creams that struggle to reach deep below the skin.<\/p>",
+            "tab_content_1_fs": 15,
+            "tab_content_1_col": "#262626",
+            "tab_content_1_lh": 21,
+            "tab_2_title": "Description",
+            "tab_content_2": "<p>Do you feel a painful pimple ready to emerge? Patch it with a Microcrystal WOW Patch and stop it from developing.<br\/>Powered by <strong>clinically-proven acne-fighting active ingredients<\/strong>, such as <strong>Salicylic Acid, Centella Asiatica, Tea Tree Extract, and Niacinamide<\/strong>, the microcrystals will dissolve and deliver the antibacterial ingredients straight to the source of the zit, <strong>visibly reducing inflammation overnight<\/strong>.<\/p><p>For \"unpoppable\" pimples, deep under the skin, that are sometimes red or painful to touch.<br\/><\/p><p><strong>✓ Save money in the long run! <br\/><\/strong>Just think about how much you’ll save by stopping using tiring acne routines with creams that struggle to reach deep below the skin.<\/p>",
+            "tab_content_2_fs": 15,
+            "tab_content_2_col": "#262626",
+            "tab_content_2_lh": 21,
+            "tab_3_title": "INCI",
+            "tab_content_3": "<p>Unique Formula of Active Ingredients: <br\/><br\/>Salicylic Acid, Niacinamide, Centella Asiatica, Tea Tree, Hyaluronic Acid<\/p>",
+            "tab_content_3_fs": 15,
+            "tab_content_3_col": "#262626",
+            "tab_content_3_lh": 21,
+            "tab_4_title": "Shipping",
+            "tab_content_4": "<p>Availability:<br\/>• Official Launch Limited Time Offer<br\/>Shipping info:<br\/>• Standard Official Launch Shipping: <strong>FREE<\/strong>, 3 to 4 Business days<br\/>• Express shipping: $15, 1 and 2 Business days<\/p><p>Shipping protection for your package is available.<\/p>",
+            "tab_content_4_fs": 15,
+            "tab_content_4_col": "#262626",
+            "tab_content_4_lh": 21,
+            "tab_5_title": "What you get",
+            "tab_content_5": "<p>WOW Patch Box includes:<br\/><br\/><strong>18 pcs <\/strong>x <strong>14mm<\/strong> Microcrystal Blemish Patches<br\/>(One box containing 3 sealed pouches with 6 patches each)<\/p>",
+            "tab_content_5_fs": 15,
+            "tab_content_5_col": "#262626",
+            "tab_content_5_lh": 21,
+            "tab_6_title": "",
+            "tab_content_6": "<p>Step 1: Clean and dry area.<br\/>Step 2: Apply patch for 6+ hours.<br\/><strong>Tip: Gently press the patch for 30 seconds.<\/strong><\/p>",
+            "tab_content_6_fs": 15,
+            "tab_content_6_col": "#262626",
+            "tab_content_6_lh": 21
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "product_variant_style": "buttons",
+            "use_swatch_images": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "inventory_notice": {
+          "type": "inventory_notice",
+          "disabled": true,
+          "settings": {
+            "inventory_limit": 3,
+            "align": "right"
+          }
+        },
+        "b8e3bfe7-afa7-49fc-957d-4669252f77ee": {
+          "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "align": "center"
+          }
+        },
+        "acf3e999-12f7-4013-92bc-e5d054a6e25c": {
+          "type": "review-stars",
+          "disabled": true,
+          "settings": {
+            "align": "left"
+          }
+        },
+        "ce1e2cb4-adb8-492f-88cb-2a63446614f2": {
+          "type": "gurentee",
+          "settings": {
+            "gurentee": "",
+            "gurentee_fs": 13,
+            "gurentee_col": "#75787b",
+            "image": "shopify:\/\/shop_images\/O_payment_methods.webp",
+            "gurentee_img_s": 30
+          }
+        },
+        "82c07ab2-80b8-402e-b182-0cff5e341895": {
+          "type": "icon_text",
+          "settings": {
+            "image_truck": "shopify:\/\/shop_images\/Secure_Payment_Guaranteed_Safe_Checkout.png",
+            "text_truck": "Secure Payment & Guaranteed Safe Checkout",
+            "truck_col": "#212121",
+            "truck_fs": 13,
+            "image_leaf": "shopify:\/\/shop_images\/Risk_Free_60_Days_Money_Back_Guarantee.png",
+            "text_leaf": "Risk Free 30 Days Money Back Guarantee",
+            "leaf_col": "#212121",
+            "leaf_fs": 13
+          }
+        },
+        "7a49e14a-53e4-4202-8498-860659f754c9": {
+          "type": "icon_box",
+          "disabled": true,
+          "settings": {
+            "icon": false,
+            "truck_image": "shopify:\/\/shop_images\/Frame_6.png",
+            "text_delivery": "<p>✓ Secure Payment & Guaranteed Safe Checkout<br\/>✓ Risk Free 60 Days Money Back Guarantee<br\/>✓ Official Launch FREE Shipping<\/p>",
+            "d_info_fs": 14,
+            "d_info_col": "#000000",
+            "text_dis": "<p><strong>Save 10%*<\/strong><br\/>on your entire order<\/p>",
+            "text_code": "<p>Use code at checkout<br\/><strong>OMMA10<\/strong><\/p>",
+            "disc_bg_col": "#f8f7fa",
+            "dis_l_fs": 16,
+            "dis_l_col": "#000000",
+            "dis_s_fs": 12,
+            "dis_s_col": "#000000",
+            "text_disclaimer": "<p><em>Limited time offer!  * Discount codes can not be cumulated<\/em><\/p>",
+            "discl_fs": 12,
+            "discl_col": "#000000",
+            "text_distri": "",
+            "distri_fs": 12,
+            "distri_col": "#000000",
+            "distri_bg_col": "rgba(0,0,0,0)"
+          }
+        },
+        "649cf944-4752-4683-8d8b-785767723b41": {
+          "type": "app_bundle",
+          "settings": {
+            "us-sub-title": "Complete kit for all kinds of pimples. 162 patches in total. Best Deal!",
+            "us_bg_col": "#fbedec",
+            "us_ds_bg_col": "#df489e"
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "84cd918d-24e6-4ee4-91b2-91a21eea7695",
+        "variant_picker",
+        "quantity_selector",
+        "inventory_notice",
+        "b8e3bfe7-afa7-49fc-957d-4669252f77ee",
+        "buy_buttons",
+        "share",
+        "acf3e999-12f7-4013-92bc-e5d054a6e25c",
+        "ce1e2cb4-adb8-492f-88cb-2a63446614f2",
+        "82c07ab2-80b8-402e-b182-0cff5e341895",
+        "7a49e14a-53e4-4202-8498-860659f754c9",
+        "649cf944-4752-4683-8d8b-785767723b41"
+      ],
+      "settings": {
+        "sub_title": "<p>Your zit-free emergency kit for reducing early-stage painful & deep pimples, <strong>18 pcs<\/strong><\/p>",
+        "sub_title_fs": 15,
+        "sub_title_col": "#000000",
+        "made_japan": false,
+        "made_korea": false,
+        "sub_title_2": "<p><em> <\/em><\/p>",
+        "sub_title_fs_2": 15,
+        "sub_title_col_2": "#75787b",
+        "layout": "classic",
+        "container": "full",
+        "show_breadcrumbs": false,
+        "show_vendor": false,
+        "show_descrip": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "image_size": "medium",
+        "bg_color": "rgba(0,0,0,0)",
+        "text_color": "default",
+        "bg_height": "default"
+      }
+    },
+    "165676221260722335": {
+      "type": "new-theme-section-what-you-get",
+      "disabled": true,
+      "blocks": {
+        "16567622129efac24c-0": {
+          "type": "text",
+          "settings": {
+            "image_urle": "",
+            "title": "Gentle Hydrating Cleanser",
+            "sub_title": "Click for details...",
+            "desc": "<p><strong>Description<\/strong><br\/>A powerful anti-wrinkle & lifting lotion with Soy Isoflavones which stimulates collagen production, formulated with four types od moistuising Hyaluronic Acid<\/p><p><strong>Frequency<br\/><\/strong>1e step daily, pm<\/p><p><strong>Suitable for type of skin<br\/><\/strong>All skin types, sentitive skin, Aging skin<\/p><p><strong>Recommended for trouble(s)<br\/><\/strong>Agains wrinkles, Lifting, Moisturizing, Regeneration, Smoothing<\/p><p><strong>How to use<br\/><\/strong>Warm a pea-sized portion in your hands, and pat into the skin on face and neck.<br\/>Tips: can be used during the day, on make-up. <\/p><p><strong>How to use<br\/><\/strong>Warm a pea-sized portion in your hands, and pat into the skin on face and neck.<br\/>Tips: can be used during the day, on make-up. <\/p>",
+            "title_size": 14,
+            "title_color": "#000000",
+            "title_line_size": 24,
+            "desc_size": 12,
+            "desc_color": "#000000",
+            "desc_line_size": 16
+          }
+        },
+        "16567622129efac24c-1": {
+          "type": "text",
+          "settings": {
+            "image_urle": "",
+            "title": "Lotion No. 1 - Super Hydrator",
+            "sub_title": "Click for details...",
+            "desc": "<p><strong>Description<\/strong><br\/>A powerful anti-wrinkle & lifting lotion with Soy Isoflavones which stimulates collagen production, formulated with four types od moistuising Hyaluronic Acid<\/p><p><strong>Frequency<br\/><\/strong>1e step daily, pm<\/p><p><strong>Suitable for type of skin<br\/><\/strong>All skin types, sentitive skin, Aging skin<\/p><p><strong>Recommended for trouble(s)<br\/><\/strong>Agains wrinkles, Lifting, Moisturizing, Regeneration, Smoothing<\/p><p><strong>How to use<br\/><\/strong>Warm a pea-sized portion in your hands, and pat into the skin on face and neck.<br\/>Tips: can be used during the day, on make-up. <\/p><p><strong>How to use<br\/><\/strong>Warm a pea-sized portion in your hands, and pat into the skin on face and neck.<br\/>Tips: can be used during the day, on make-up. <\/p>",
+            "title_size": 14,
+            "title_color": "#000000",
+            "title_line_size": 24,
+            "desc_size": 12,
+            "desc_color": "#000000",
+            "desc_line_size": 16
+          }
+        },
+        "16567622129efac24c-2": {
+          "type": "text",
+          "settings": {
+            "image_urle": "",
+            "title": "Smoothing Anti-FatigueEye Cream",
+            "sub_title": "Click for details...",
+            "desc": "<p><strong>Description<\/strong><br\/>A powerful anti-wrinkle & lifting lotion with Soy Isoflavones which stimulates collagen production, formulated with four types od moistuising Hyaluronic Acid<\/p><p><strong>Frequency<br\/><\/strong>1e step daily, pm<\/p><p><strong>Suitable for type of skin<br\/><\/strong>All skin types, sentitive skin, Aging skin<\/p><p><strong>Recommended for trouble(s)<br\/><\/strong>Agains wrinkles, Lifting, Moisturizing, Regeneration, Smoothing<\/p><p><strong>How to use<br\/><\/strong>Warm a pea-sized portion in your hands, and pat into the skin on face and neck.<br\/>Tips: can be used during the day, on make-up. <\/p><p><strong>How to use<br\/><\/strong>Warm a pea-sized portion in your hands, and pat into the skin on face and neck.<br\/>Tips: can be used during the day, on make-up. <\/p>",
+            "title_size": 14,
+            "title_color": "#000000",
+            "title_line_size": 24,
+            "desc_size": 12,
+            "desc_color": "#000000",
+            "desc_line_size": 16
+          }
+        },
+        "d620fb85-dbb7-4e37-988e-0a4846b0386a": {
+          "type": "text",
+          "settings": {
+            "image_urle": "",
+            "title": "Concentrated Water Serum<br>LOCK-in-MOIST",
+            "sub_title": "Click for details...",
+            "desc": "",
+            "title_size": 14,
+            "title_color": "#000000",
+            "title_line_size": 24,
+            "desc_size": 12,
+            "desc_color": "#000000",
+            "desc_line_size": 16
+          }
+        },
+        "91a1825f-364e-4850-a7fd-fbf7c49cbaf3": {
+          "type": "text",
+          "settings": {
+            "image_urle": "",
+            "title": "Intense Hydrating Skin-<br>Plumping GEL day & night",
+            "sub_title": "Click for details...",
+            "desc": "",
+            "title_size": 14,
+            "title_color": "#000000",
+            "title_line_size": 24,
+            "desc_size": 12,
+            "desc_color": "#000000",
+            "desc_line_size": 16
+          }
+        },
+        "265e2105-14cd-443a-9baf-fc8b47e67f1b": {
+          "type": "text",
+          "settings": {
+            "image_urle": "",
+            "title": "Product Name",
+            "sub_title": "Subheading",
+            "desc": "",
+            "title_size": 14,
+            "title_color": "#000000",
+            "title_line_size": 24,
+            "desc_size": 12,
+            "desc_color": "#000000",
+            "desc_line_size": 16
+          }
+        },
+        "66245259-dbc3-4669-833d-8b201353d930": {
+          "type": "text",
+          "settings": {
+            "image_urle": "",
+            "title": "Product Name",
+            "sub_title": "Subheading",
+            "desc": "",
+            "title_size": 14,
+            "title_color": "#000000",
+            "title_line_size": 24,
+            "desc_size": 12,
+            "desc_color": "#000000",
+            "desc_line_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "16567622129efac24c-0",
+        "16567622129efac24c-1",
+        "16567622129efac24c-2",
+        "d620fb85-dbb7-4e37-988e-0a4846b0386a",
+        "91a1825f-364e-4850-a7fd-fbf7c49cbaf3",
+        "265e2105-14cd-443a-9baf-fc8b47e67f1b",
+        "66245259-dbc3-4669-833d-8b201353d930"
+      ],
+      "settings": {
+        "title": "what you get",
+        "desc": "",
+        "content_align": "center",
+        "link_title": "Learn more",
+        "link": "",
+        "bg_color": "#ffffff",
+        "image_size": 215,
+        "click_size": 12,
+        "ic_color": "#f8f7fa",
+        "ic_color_h": "#5f5c57",
+        "tool_bg": "#f8f7fa"
+      }
+    },
+    "dc563667-6319-4e18-a0b0-b330a51821ce": {
+      "type": "section-testimonials",
+      "blocks": {
+        "template--16272240181463__dc563667-6319-4e18-a0b0-b330a51821ce-1668700359c4cc5bd5-0": {
+          "type": "text",
+          "settings": {
+            "media": "stars",
+            "image_round": true,
+            "text": "<p><em>\"Works like a charm. Definitely worth a try if you need an acne remedy.\"<\/em><\/p>",
+            "name": "Brenna",
+            "source": ""
+          }
+        },
+        "template--16272240181463__dc563667-6319-4e18-a0b0-b330a51821ce-1668700359c4cc5bd5-1": {
+          "type": "text",
+          "settings": {
+            "media": "stars",
+            "image_round": false,
+            "text": "<p><em>\"The usefulness of these patches makes them worth every penny! I just wish I discovered them sooner!\"<\/em><\/p>",
+            "name": "Paula",
+            "source": ""
+          }
+        },
+        "template--16272240181463__dc563667-6319-4e18-a0b0-b330a51821ce-1668700359c4cc5bd5-2": {
+          "type": "text",
+          "settings": {
+            "media": "stars",
+            "image_round": false,
+            "text": "<p><em>\"I love this product so much it. Glad I discovered it and gave it a try. It helps me with my under the skin zits.\"<\/em><\/p>",
+            "name": "Carly",
+            "source": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16272240181463__dc563667-6319-4e18-a0b0-b330a51821ce-1668700359c4cc5bd5-0",
+        "template--16272240181463__dc563667-6319-4e18-a0b0-b330a51821ce-1668700359c4cc5bd5-1",
+        "template--16272240181463__dc563667-6319-4e18-a0b0-b330a51821ce-1668700359c4cc5bd5-2"
+      ],
+      "settings": {
+        "title": "",
+        "style_desktop": "grid",
+        "style_mobile": "carousel",
+        "link_title": "",
+        "link": ""
+      }
+    },
+    "1655971899ef2c7bf2": {
+      "type": "section-text-columns-2",
+      "blocks": {
+        "165597189988c92655-0": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_21_1.png",
+            "title": "Salicylic Acid",
+            "sub_title": "",
+            "desc": "<p>Clinically proven effective on deep pimples and blackheads and has unique skin-soothing properties.<\/p>"
+          }
+        },
+        "165597189988c92655-1": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_22.png",
+            "title": "Niacinamide",
+            "sub_title": "",
+            "desc": "<p>A strong skin-repairing ingredient that significantly reduces enlarged pores, fine lines, and brightens dull, uneven skin.<\/p>"
+          }
+        },
+        "165597189988c92655-2": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_3.png",
+            "title": "Centella Asiatica",
+            "sub_title": "",
+            "desc": "<p>Antioxidant, soothes inflammation, redness, and irritated skin. Firms skin while fighting breakouts and boosting collagen levels!<\/p>"
+          }
+        },
+        "bf5226fa-d8b5-4261-8b34-244762742e3b": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_4.png",
+            "title": "Tea Tree",
+            "sub_title": "",
+            "desc": "<p>Anti-inflammatory, antimicrobial, and antiseptic for combating itchy skin and reducing redness and swelling. Helps reduce acne scars.<\/p>"
+          }
+        },
+        "a784aa6c-63a8-4d30-bc42-1135025c29df": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Frame_5.png",
+            "title": "Hyaluronic Acid",
+            "sub_title": "",
+            "desc": "<p>Occurs naturally in the skin. It is an excellent moisture binder, hydrates and soothes the skin, and prevents moisture loss.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165597189988c92655-0",
+        "165597189988c92655-1",
+        "165597189988c92655-2",
+        "bf5226fa-d8b5-4261-8b34-244762742e3b",
+        "a784aa6c-63a8-4d30-bc42-1135025c29df"
+      ],
+      "settings": {
+        "title": "unique active ingredients",
+        "desc": "<p>OMMA products bear <strong>my heart, my story, my emotions <\/strong>and <strong>the positive energy of my healing <\/strong>combined with <strong>innovative Korean skincare technology <\/strong>and the <strong>power of medicinal herbs <\/strong>and plant-based active ingredients.<\/p>",
+        "content_align": "center",
+        "link_title": "Learn more",
+        "link": "",
+        "bg_color": "#f0f0f0"
+      }
+    },
+    "165246186138d0d856": {
+      "type": "section-image-grid",
+      "disabled": true,
+      "blocks": {
+        "16524618613c0391c5-0": {
+          "type": "image",
+          "settings": {
+            "bg_color": "rgba(0,0,0,0)",
+            "text_color": "dark",
+            "title": "Rachelle Hodgson",
+            "text": "<p><strong>IG:<\/strong>@rachelles.remedies<br\/><strong>Skin concerns:<\/strong> Acne<br\/><strong>Age:<\/strong> 25<br\/>“Lorem ipsum”<\/p>",
+            "link_text": "",
+            "link": ""
+          }
+        },
+        "f9617471-c9a2-461c-9edf-2c95d084e7ff": {
+          "type": "image",
+          "settings": {
+            "bg_color": "#f0f0f0",
+            "text_color": "default",
+            "title": "Text block",
+            "text": "<p>Use these text blocks to promote seasonal sales, store events or to tell your brand's story.<\/p>",
+            "link_text": "Learn more",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16524618613c0391c5-0",
+        "f9617471-c9a2-461c-9edf-2c95d084e7ff"
+      ],
+      "settings": {
+        "featured": true,
+        "height": "medium",
+        "width": "large",
+        "overlay_strength": 0
+      }
+    },
+    "16642086851d4c4180": {
+      "type": "section-slideshow",
+      "blocks": {
+        "1664208685cc01b8d5-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/micro_page_slideshow.webp",
+            "image_mobile": "shopify:\/\/shop_images\/micro_page_slideshow_mobile.webp",
+            "image_alignment": "center",
+            "alignment": "left",
+            "text_color": "default",
+            "title": "",
+            "text": "",
+            "link_title": "",
+            "link": ""
+          }
+        },
+        "1664208685cc01b8d5-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image_alignment": "center",
+            "alignment": "left",
+            "text_color": "default",
+            "title": "Image slide",
+            "text": "<p>Use these slides to tell the world about your brand. Use images or background video along with text and links.<\/p>",
+            "link_title": "More info",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664208685cc01b8d5-0",
+        "1664208685cc01b8d5-1"
+      ],
+      "settings": {
+        "slideshow_style": "minimal",
+        "title_size": 3,
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "slideshow_height": "medium",
+        "slideshow_width": "contained",
+        "overlay_strength": 10
+      }
+    },
+    "16530124278e08ecb8": {
+      "type": "section-faq",
+      "blocks": {
+        "165301242720bb74b1-3": {
+          "type": "article",
+          "settings": {
+            "title": "Why are microcrystals a game changer?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Because these tiny noninvasive microcrystals work wonders on those deep pimples that take forever to come up.<\/p><p>Being able to penetrate deeper layers of the skin and delivering effective active ingredients, they work like a charm reducing the pain and inflammation of underground zits!<\/p><p>These have helped me reduce my OCD skin-picking.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "6e8dec51-32a2-48c7-800e-071f75e22f59": {
+          "type": "article",
+          "settings": {
+            "title": "Why you'll love it?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Microcrystals represent the new generation of innovations in blemish care and we strongly believe in the technology and science behind the product.<br\/><br\/>We have created a unique active ingredients formula with a 360° approach for treating zits:<br\/>✓ healing the infection<br\/>✓ alleviating inflammation<br\/>✓ hydrating the skin to avoid scarring<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "165301242720bb74b1-1": {
+          "type": "article",
+          "settings": {
+            "title": "When to use the microcrystals patch?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Each time you feel a hard-to-reach and stubborn one is ready to make an \"undercover\" entry.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "165301242720bb74b1-5": {
+          "type": "article",
+          "settings": {
+            "title": "How does it work?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Once the pimple patch is applied, the OMMA microcrystals completely & rapidly dissolve and deliver the unique active ingredients formula directly to the zits below the skin.<\/p><p>If the pimple is in the early stage, it prevents it from developing or, if the bump is already formed it brings it faster to the surface and speeds up the healing process.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "b8fc06ac-8bbe-4cad-ae3e-0c308aef75c8": {
+          "type": "article",
+          "disabled": true,
+          "settings": {
+            "title": "What about the price?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>The microcrystal pimple patches may seem pricy, but for something so effective, these will actually save you money in the long run! <\/p><p>Just think about how much you’ll save by stopping using tiring acne routines with creams that struggle to reach deep below the skin.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "f6230926-00e2-4be1-a6d3-f280fa75ebed": {
+          "type": "article",
+          "settings": {
+            "title": "Free shipping & fulfillment info",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p><strong>We currently offer free shipping for our standard shipping method.<\/strong><\/p><p>We ship from Salt Lake City and all orders are shipped using DHL, USPS or FEDEX. These services are fully trackable once the couriers have your order.<\/p><p><strong>Shipping fees:<\/strong><\/p><p>•<strong>Standard<\/strong> shipping is <strong>FREE<\/strong> for all orders during the Official Launch.<br\/>•For <strong>Express<\/strong> shipping, a flat rate of <strong>$15<\/strong> is charged at checkout.<\/p><p><\/p><p><strong>Transit time:<br\/><\/strong>•For <strong>Standard<\/strong> Free shipping, transit time is usually between <strong>3 and 4 Business Days<\/strong> from when your order is dispatched. <br\/>•For <strong>Express<\/strong> shipping, transit time is usually between <strong>1 and 2 Business Days<\/strong> from when your order is dispatched. <\/p><p><strong>Processing time:<br\/><\/strong>•All orders are processed pending availability and payment verification.<br\/>•Orders are processed in max. 2 working days (orders placed between Friday, 2 pm, and 8 am Monday, will be processed starting on Monday).<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "1a3a1a5e-426e-4e91-a279-a55953db5a74": {
+          "type": "article",
+          "settings": {
+            "title": "Sustainability",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Our packaging is FSC Mix, meaning the paper we used within the products comes from FSC-certified material & recycled material.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "b140cf89-b82e-4bde-b636-9a3d5b3c7ca3": {
+          "type": "article",
+          "settings": {
+            "title": "INCI",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Sodium Hyaluronate, Cellulose Gum, Glycerin, Trehalose, Butylene Glycol, Propanediol, Niacinamide, Centella Asiatica Extract, 1,2-Hexanediol, Caprylyl Glycol, Madecassoside, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Salicylic Acid, Ethylhexylglycerin, Houttuynia Cordata Extract, Melaleuca Alternifolia (Tea Tree) Leaf Extract, Melaleuca Alternifolia (Tea Tree) Extract<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "aef7e2a6-cd0e-40db-b842-318e1cdd9b07": {
+          "type": "article",
+          "settings": {
+            "title": "Why made in South Korea?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>Everyone knows South Korea is the innovator in the beauty space and no other comes close in this area.<\/p><p>K-Beauty cosmetics are world-wide renowned for a good reason, as they represent  the perfect combination of science and the power of natural ingredients. <\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        },
+        "66201cf6-9612-44df-97ea-2c92dddc5ea3": {
+          "type": "article",
+          "settings": {
+            "title": "Why buy from OMMA?",
+            "h_text_fs": 18,
+            "h_text_line_space": 20,
+            "h_text_col": "#212121",
+            "text": "<p>It's simple: because the products actually work! <\/p><p>OMMA is not just another skincare brand, its story roots deeply into my life and was created as a pinnacle of my healing journey. You can support a small business while also benefiting from great products crafted with care and passion.<\/p><p>I hope the products we carefully created will help you as much as they helped me.<\/p>",
+            "text_fs": 15,
+            "text_line_space": 20,
+            "text_col": "#212121"
+          }
+        }
+      },
+      "block_order": [
+        "165301242720bb74b1-3",
+        "6e8dec51-32a2-48c7-800e-071f75e22f59",
+        "165301242720bb74b1-1",
+        "165301242720bb74b1-5",
+        "b8fc06ac-8bbe-4cad-ae3e-0c308aef75c8",
+        "f6230926-00e2-4be1-a6d3-f280fa75ebed",
+        "1a3a1a5e-426e-4e91-a279-a55953db5a74",
+        "b140cf89-b82e-4bde-b636-9a3d5b3c7ca3",
+        "aef7e2a6-cd0e-40db-b842-318e1cdd9b07",
+        "66201cf6-9612-44df-97ea-2c92dddc5ea3"
+      ],
+      "settings": {
+        "image_bg-color": "rgba(0,0,0,0)",
+        "title": "what you need to know",
+        "enable_sidebar": false,
+        "side_image_icon": true,
+        "image_side": "shopify:\/\/shop_images\/Group_5.png",
+        "image_side-top": 40,
+        "image_side-bottom": 165,
+        "image_side-left": 90,
+        "image_side-right": 0,
+        "cta_link_title": "Contact us",
+        "cta_link": "",
+        "cta_style": "link"
+      }
+    },
+    "16530122968b8fed0f": {
+      "type": "image-with-text-round",
+      "disabled": true,
+      "blocks": {
+        "439bec46-df07-4f90-ba04-8b215bf53ea9": {
+          "type": "video-image-text",
+          "settings": {
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "<p>WOW Patch. WOW Skin. WOW Mood. WOW Day. <\/p>",
+            "desc": "<p>OMMA represents the change love can have on your skin, in all its forms.<\/p><p>Join the <strong>#ommajourney.<\/strong> See how it works. Prees PLAY <\/p>",
+            "video_url": "https:\/\/vimeo.com\/755915058",
+            "image_side_top": 215,
+            "image_side_bottom": 0,
+            "image_side_left": 90,
+            "image_side_right": 0,
+            "cus_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "439bec46-df07-4f90-ba04-8b215bf53ea9"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
+    "6764f347-4c0f-4199-b46b-75622daff0ae": {
+      "type": "section-custom",
+      "disabled": true,
+      "blocks": {
+        "template--16272240181463__6764f347-4c0f-4199-b46b-75622daff0ae-166671248725ce9bdb-0": {
+          "type": "text",
+          "settings": {
+            "title": "Play the video and see how microcrystals work!",
+            "text": "",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "template--16272240181463__6764f347-4c0f-4199-b46b-75622daff0ae-166671248725ce9bdb-0"
+      ],
+      "settings": {
+      }
+    },
+    "05eb219e-84a9-4de9-81c2-4e20230d738a": {
+      "type": "section-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }<\/style><div class='embed-container'><iframe src='https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/fa3ec4afa6814ff9aa25087be340fc15.mp4' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen class=\"container container--mob-0\"><\/iframe><\/div>"
+      }
+    },
+    "1664628814e3fa3d6e": {
+      "type": "section-video",
+      "disabled": true,
+      "blocks": {
+        "1664628814cc07e40a-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/vimeo.com\/755915058",
+            "video_title": "See how it works"
+          }
+        }
+      },
+      "block_order": [
+        "1664628814cc07e40a-0"
+      ],
+      "settings": {
+        "title": "See how it works. Press PLAY",
+        "desc": "",
+        "link_title": "",
+        "link": "",
+        "overlay_strength": 0
+      }
+    },
+    "16529285447b11895e": {
+      "type": "section-text-columns",
+      "blocks": {
+        "1652928544759d838b-0": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.png",
+            "title": "CRUELTY FREE",
+            "sub_title": "",
+            "desc": ""
+          }
+        },
+        "1652928544759d838b-1": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_38.png",
+            "title": "DERMATO<br>TESTED",
+            "sub_title": "",
+            "desc": ""
+          }
+        },
+        "1652928544759d838b-2": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_2.png",
+            "title": "VEGAN",
+            "sub_title": "",
+            "desc": ""
+          }
+        },
+        "38d932ee-62c1-4949-bbb1-558cb45b76fe": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_13.png",
+            "title": "ACCELERATE<br>HEALING",
+            "sub_title": "",
+            "desc": ""
+          }
+        },
+        "9dcd8ce9-fa51-4234-aa18-7692d4443191": {
+          "type": "text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_3.png",
+            "title": "ALLEVIATE INFLAMATION AND SWELLING",
+            "sub_title": "",
+            "desc": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652928544759d838b-0",
+        "1652928544759d838b-1",
+        "1652928544759d838b-2",
+        "38d932ee-62c1-4949-bbb1-558cb45b76fe",
+        "9dcd8ce9-fa51-4234-aa18-7692d4443191"
+      ],
+      "settings": {
+        "title": "",
+        "desc": "",
+        "content_align": "center",
+        "link_title": "",
+        "link": "",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1652964323e1e966a7": {
+      "type": "image-with-text-round",
+      "blocks": {
+        "69cdff31-5f8b-4f50-8035-4023d5f906e4": {
+          "type": "list-style",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Short_animation_v3_GIF.gif",
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "heal deep pimples before they surface",
+            "desc_ls_1": "With a single patch, you can reduce the pain and inflammation in less than 6 hours",
+            "desc_ls_2": "The innovative microcrystals deliver antibacterial ingredients deep below the skin to speed up healing",
+            "desc_ls_3": "The wow patch was designed for all skin types and to protect against skin picking"
+          }
+        }
+      },
+      "block_order": [
+        "69cdff31-5f8b-4f50-8035-4023d5f906e4"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
+    "1653012316e93b58b5": {
+      "type": "image-with-text-round",
+      "blocks": {
+        "bf972b5d-c572-42fa-ac69-39025406ed18": {
+          "type": "both-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/micro_how_to_section_2.webp",
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "1. CLEAN AND DRY SPOT",
+            "desc": "<p>Make sure to clean your skin before applying the microcrystal pimple patch.<\/p>",
+            "image_sm1": "shopify:\/\/shop_images\/Group_24.png",
+            "title_2": "2. APPLY PATCH FOR 6+ HOURS",
+            "desc_2": "<p>Apply the microcrystal pimple patch and gently press it onto the pimple for 30 seconds. <br\/>After 6+ hours (or overnight), gently peel off and <em>#revealtheinnerbeauty<\/em> through your skin.<\/p>",
+            "image_sm2": "shopify:\/\/shop_images\/Group_23.png"
+          }
+        }
+      },
+      "block_order": [
+        "bf972b5d-c572-42fa-ac69-39025406ed18"
+      ],
+      "settings": {
+        "section_title": "how to use"
+      }
+    },
+    "165301235437849c7b": {
+      "type": "image-with-text-round",
+      "disabled": true,
+      "blocks": {
+        "ed521e74-752a-4406-b77c-f3aa217b0bac": {
+          "type": "video-image-text",
+          "settings": {
+            "bg_color": "#f8f7fa",
+            "title": "<p>meet the<br\/>derms<\/p>",
+            "desc": "<p>WOW Patch is the fastest and most hygienic way to extract fluid from common, superficial pimples. The ingredients in this patch give it an incredible edge over other hydrocolloid patches.<\/p><p><strong>Dr. Mary Jane<\/strong><\/p>",
+            "video_url": "",
+            "image_side": "shopify:\/\/shop_images\/Group_4.png",
+            "image_side_top": 215,
+            "image_side_bottom": 0,
+            "image_side_left": 90,
+            "image_side_right": 0,
+            "cus_class": "side-image-absolute"
+          }
+        }
+      },
+      "block_order": [
+        "ed521e74-752a-4406-b77c-f3aa217b0bac"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
+    "1653012419ae348b11": {
+      "type": "image-with-text-round",
+      "blocks": {
+        "425d8d07-c09b-4c82-bc43-47a5962f6829": {
+          "type": "video-image-text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/main_zoom_in_section.webp",
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "<p>Real.<br\/>Tangible.<br\/>Results.<\/p>",
+            "desc": "<p>• Non-invasive and effective<br\/>• Works well for deep zits<br\/>• Minimizes pimples overnight<\/p>",
+            "video_url": "",
+            "image_side_top": 215,
+            "image_side_bottom": 0,
+            "image_side_left": 90,
+            "image_side_right": 0,
+            "cus_class": "middle-text"
+          }
+        }
+      },
+      "block_order": [
+        "425d8d07-c09b-4c82-bc43-47a5962f6829"
+      ],
+      "settings": {
+        "section_title": ""
+      }
+    },
+    "1661683462d3067152": {
+      "type": "section-custom",
+      "blocks": {
+        "1661683462666a8abc-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "1\/2"
+          }
+        }
+      },
+      "block_order": [
+        "1661683462666a8abc-0"
+      ],
+      "settings": {
+      }
+    },
+    "16615965501446a3b2": {
+      "type": "section-custom",
+      "blocks": {
+        "1661596550e60dddbf-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><\/p><p><strong>OMMA is not just another skincare brand, its story roots deeply into my life and was created as a pinnacle of my healing journey, with the love and support of my husband and partner.<\/strong><\/p><p>I’ve had skin issues for as long as I can remember and it took me years to finally discover the deep root cause of my skin issues and to find the right products that would finally help me heal.<\/p><p>WOW Patch means protection, care, and nurture.<br\/>I hope the products we carefully create will help you as much as they helped me.<br\/><strong>Improve your life and look your best with the future of blemish care<br\/><\/strong><br\/><em>Adrienne | Co-founder of OMMA Cosmetics<\/em><\/p>",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "1\/2"
+          }
+        }
+      },
+      "block_order": [
+        "1661596550e60dddbf-0"
+      ],
+      "settings": {
+      }
+    },
+    "166159664956cad716": {
+      "type": "section-custom",
+      "blocks": {
+        "efa9f134-4270-4ee1-b98a-de35a60a3035": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "1\/1"
+          }
+        },
+        "f95c2ba5-5e7f-447c-9e86-e9d4968ac755": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/home_page_omma_represents_banner_2200x1500_2.webp",
+            "link": "",
+            "width": "1\/2"
+          }
+        },
+        "1661596649b21b669c-0": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p><strong><br\/>OMMA represents the change love can have on your skin, in all its forms.<\/strong><\/p><p>From feeling the <strong>love of your partner<\/strong> who supports you when you’re at your lowest, the <strong>love of a good friend<\/strong> who understands why you may be distant sometimes and encourages you to overcome your suffering, or the <strong>love you have for yourself<\/strong>, your body, your skin, just the way it is – understanding that it’s protecting you the way it knows best.<br\/>Join the <strong>#ommajourney.<\/strong><\/p>",
+            "link_title": "",
+            "link": "",
+            "align": "center",
+            "width": "1\/2"
+          }
+        }
+      },
+      "block_order": [
+        "efa9f134-4270-4ee1-b98a-de35a60a3035",
+        "f95c2ba5-5e7f-447c-9e86-e9d4968ac755",
+        "1661596649b21b669c-0"
+      ],
+      "settings": {
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "related_title": "You may also like",
+        "related_mobile_layout": "carousel",
+        "related_grid_num": 3,
+        "grid_mobile": "1",
+        "related_grid_row": 1
+      }
+    },
+    "1661257397c77ace74": {
+      "type": "section-product",
+      "disabled": true,
+      "blocks": {
+        "3bf85d1c-fb81-4949-b674-385bed75310e": {
+          "type": "reviews",
+          "settings": {
+            "align": "left"
+          }
+        },
+        "16612573972c0c4305-0": {
+          "type": "description",
+          "settings": {
+            "desc_text": "<p><strong>Bundle Up and Save $63! Best deal<\/strong> on the market<\/p><p>• Complete acne care with <strong>162 self-dissolving microcrystals & active hydrocolloid <br\/><\/strong>• Designed especially for both the <strong>early stage pimples <\/strong>but also the and <strong>late stage ones<\/strong><\/p>"
+          }
+        },
+        "16612573972c0c4305-1": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_tax_notice": false,
+            "show_separator": true
+          }
+        },
+        "16612573972c0c4305-2": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "product_variant_style": "buttons",
+            "use_swatch_images": false
+          }
+        },
+        "16612573972c0c4305-3": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "16612573972c0c4305-4": {
+          "type": "inventory_notice",
+          "disabled": true,
+          "settings": {
+            "inventory_limit": 3,
+            "align": "right"
+          }
+        },
+        "16612573972c0c4305-5": {
+          "type": "buy_buttons",
+          "disabled": true,
+          "settings": {
+            "enable_payment_button": true
+          }
+        },
+        "c7417fc3-84fe-407d-9918-200dfe257fec": {
+          "type": "link",
+          "settings": {
+            "title": "Learn more",
+            "link": "shopify:\/\/products\/wow-patch-mega-bundle",
+            "style": "body",
+            "align": "center",
+            "new_tab": false
+          }
+        }
+      },
+      "block_order": [
+        "3bf85d1c-fb81-4949-b674-385bed75310e",
+        "16612573972c0c4305-0",
+        "16612573972c0c4305-1",
+        "16612573972c0c4305-2",
+        "16612573972c0c4305-3",
+        "16612573972c0c4305-4",
+        "16612573972c0c4305-5",
+        "c7417fc3-84fe-407d-9918-200dfe257fec"
+      ],
+      "settings": {
+        "featured_product": "wow-patch-mega-bundle",
+        "show_vendor": false,
+        "content_align": "default",
+        "enable_video_looping": false
+      }
+    },
+    "1661682137d98a92fc": {
+      "type": "section-image-text",
+      "blocks": {
+        "166168213750b3dbdf-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_mega_bundle_wow_patch_hydrocolloid_microcrystal_blemish_patch_2048x2048_100p.webp",
+            "bg_color": "rgba(0,0,0,0)",
+            "title": "Bundle Up & Save $63!",
+            "desc": "<p>• Complete blemish care with <strong>162 self-dissolving microcrystals & active hydrocolloid<br\/><\/strong>• Designed especially for both the <strong>early stage pimples <\/strong>but also the and <strong>late stage ones<\/strong><\/p>",
+            "video": "",
+            "link_title": "Learn more",
+            "link": "shopify:\/\/products\/wow-patch-mega-bundle"
+          }
+        }
+      },
+      "block_order": [
+        "166168213750b3dbdf-0"
+      ],
+      "settings": {
+      }
+    },
+    "165369742915314000": {
+      "type": "apps",
+      "blocks": {
+        "437ec47e-ba0a-4133-8acd-5db7d20757c6": {
+          "type": "shopify:\/\/apps\/vitals-all-in-one-marketing\/blocks\/related-products\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "d07ca61d-c73b-4c09-8941-360580311110": {
+          "type": "shopify:\/\/apps\/vitals-all-in-one-marketing\/blocks\/product-reviews\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "settings": {
+          }
+        },
+        "8aca00b8-74a6-412a-b29e-81f15e2de216": {
+          "type": "shopify:\/\/apps\/vitals-all-in-one-marketing\/blocks\/ub-product-bundles\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "437ec47e-ba0a-4133-8acd-5db7d20757c6",
+        "d07ca61d-c73b-4c09-8941-360580311110",
+        "8aca00b8-74a6-412a-b29e-81f15e2de216"
+      ],
+      "settings": {
+        "include_margins": false,
+        "bg_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "165227681898b5418e",
+    "main",
+    "165676221260722335",
+    "dc563667-6319-4e18-a0b0-b330a51821ce",
+    "1655971899ef2c7bf2",
+    "165246186138d0d856",
+    "16642086851d4c4180",
+    "16530124278e08ecb8",
+    "16530122968b8fed0f",
+    "6764f347-4c0f-4199-b46b-75622daff0ae",
+    "05eb219e-84a9-4de9-81c2-4e20230d738a",
+    "1664628814e3fa3d6e",
+    "16529285447b11895e",
+    "1652964323e1e966a7",
+    "1653012316e93b58b5",
+    "165301235437849c7b",
+    "1653012419ae348b11",
+    "1661683462d3067152",
+    "16615965501446a3b2",
+    "166159664956cad716",
+    "product-recommendations",
+    "1661257397c77ace74",
+    "1661682137d98a92fc",
+    "165369742915314000"
+  ]
+}

@@ -1,0 +1,228 @@
+<style>
+.section--{{ section.id }} .home-image-grid__bg--overlay:before,
+.section--{{ section.id }} .home-image-grid__bg--cover:before {
+    {% if section.settings.overlay_strength == 100 %}
+        opacity: 1;
+    {% else %}
+        opacity: .{{ section.settings.overlay_strength }};
+    {% endif %}
+}
+</style>
+{% if section.blocks.size > 0 %}
+    <section class="section section--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="home-image-grid">
+        <div class="home-image-grid home-image-grid--{{ section.settings.height }}{% if section.settings.featured %} home-image-grid--featured{% endif %}">
+            <div class="container container--{{ section.settings.width }}">
+                <div class="home-image-grid-slider home-image-grid__items">
+                  {% for block in section.blocks %}  
+                  <div class="o-layout">
+                                 
+                        <div class="o-layout__item u-1/1 u-1/3@tab" {{ block.shopify_attributes }}>
+                                    <div class="u-flex-parent">
+                                        <div class="home-image-grid__item home-image-grid__item--text u-flex  u-flex--center home-image-grid__item--p-" style="background-color:{{ block.settings.bg_color }};">
+                                            <div class="home-image-grid__content home-image-grid__content--{{ block.settings.text_color }}">
+                                                {% unless block.settings.title == blank %}
+                                                    <h3 class="home-image-grid__title {% if section.settings.featured and forloop.index == 1 %}h1{% else %}h2{% endif %}{% if settings.type_header_underline %} home-image-grid__title--underline{% endif %}">{{ block.settings.title }}</h3>
+                                                {% endunless %}
+                                                {% unless block.settings.text == blank %}
+                                                    <div class="home-image-grid__desc rte">{{ block.settings.text }}</div>
+                                                {% endunless %}
+                                                {% unless block.settings.link == blank %}
+                                                    <a href="{{ block.settings.link }}" class="c-btn c-btn--primary c-btn--{{ block.settings.text_color }} home-image-grid__btn">{{ block.settings.link_text }}</a>
+                                                {% endunless %}
+                                            </div>
+                                        </div>
+                                    </div>
+                             </div>
+                          <div class="o-layout__item u-1/1 u-2/3@tab" {{ block.shopify_attributes }}>
+                               
+                                   
+                                        <div class="u-flex-parent">
+                                          <div class="container dev-slider-container">
+
+ 
+  
+  <div id="before-after-slider">
+    <div id="before-image">
+      <img src="{{ block.settings.image_sec | img_url: '1080x' }}" alt="before"/>
+    </div>
+  
+    <div id="after-image">
+      <img src="{{ block.settings.image | img_url: '1080x' }}" alt="After"/>
+    </div>
+
+    <div id="resizer"></div>
+  
+ </div>
+</div>
+                                          
+                                          
+                                          
+                                          
+                                          
+                                          
+                                 
+                            </div>
+                                   
+                                </div>    
+                  </div>
+ {% endfor %}
+                        
+                    </div>
+                </div>
+            </div>
+      
+    </section>
+{% endif %}
+
+{% if section.blocks.size == 0 %}
+    <div class="placeholder-noblocks">
+        {{ 'homepage.onboarding.no_content' | t }}
+    </div>
+{% endif %}
+
+{% schema %}
+{
+    "name": "Before and after photos",
+    "class": "js-section__home-image-grid",
+    "max_blocks": 5,
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "featured",
+            "label": "Emphasize first block",
+            "default": true
+        },
+        {
+            "type": "select",
+            "id": "height",
+            "label": "Section height",
+            "default": "medium",
+            "options": [
+                {
+                    "label": "Small",
+                    "value": "small"
+                },
+                {
+                    "label": "Medium",
+                    "value": "medium"
+                },
+                {
+                    "label": "Large",
+                    "value": "large"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "id": "width",
+            "label": "Layout width (desktop)",
+            "default": "large",
+            "options": [
+                {
+                    "label": "Default",
+                    "value": "large"
+                },
+                {
+                    "label": "Wide",
+                    "value": "full"
+                }
+            ]
+        },
+        {
+            "type": "range",
+            "id": "overlay_strength",
+            "label": "Overlay strength",
+            "unit": "%",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 30
+        }
+    ],
+    "blocks": [
+        {
+            "type": "image",
+            "name": "Image block",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image before"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image_sec",
+                    "label": "Image after"
+                },
+           
+{
+                    "type": "color",
+                    "id": "bg_color",
+                    "label": "Background color",
+                    "default": "#f0f0f0"
+                },
+                {
+                    "type": "select",
+                    "id": "text_color",
+                    "label": "Text color",
+                    "default": "default",
+                    "options": [
+                        {
+                            "value": "default",
+                            "label": "Default"
+                        },
+                        {
+                            "value": "default-light",
+                            "label": "Default light"
+                        },
+                        {
+                            "value": "dark",
+                            "label": "Dark"
+                        },
+                        {
+                            "value": "white",
+                            "label": "Light"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Heading",
+                    "default": "Text block"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text",
+                    "default": "<p>Use these text blocks to promote seasonal sales, store events or to tell your brand's story.</p>"
+                },
+                {
+                    "type": "text",
+                    "id": "link_text",
+                    "label": "Button label",
+                    "default": "Learn more"
+                },
+                {
+                    "type": "url",
+                    "id": "link",
+                    "label": "Button link"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Image grid with text",
+            "blocks": [
+                {
+                    "type": "image"
+                },
+                {
+                    "type": "image"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

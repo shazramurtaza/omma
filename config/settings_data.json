@@ -1,0 +1,1278 @@
+{
+  "current": {
+    "color_headings": "#212121",
+    "color_text": "#212121",
+    "color_alt_text": "#c2c2c2",
+    "color_brand": "#df489e",
+    "color_accent": "#ffde64",
+    "color_button": "#ffffff",
+    "product_grid_sale_color": "#df489e",
+    "product_grid_bg": "#FFFFFF",
+    "color_drawer_bg": "#ffffff",
+    "color_drawer_style": "dark",
+    "type_base_font": "sans-serif",
+    "type_base_size": "15",
+    "type_header_font": "montserrat_n7",
+    "type_header_size": "0.85",
+    "type_header_letterspace": 2,
+    "type_header_capitalize": false,
+    "type_header_underline": false,
+    "type_header_underline_size": 1,
+    "type_nav_font": "montserrat_n3",
+    "type_nav_size": "11",
+    "type_nav_letterspace": 2,
+    "type_nav_capitalize": false,
+    "type_button_font": "montserrat_n4",
+    "type_button_size": "11",
+    "type_button_letterspace": 2,
+    "type_button_capitalize": true,
+    "product_grid_vendor": false,
+    "product_grid_second_hover": true,
+    "product_grid_quick_buy": "hover",
+    "product_grid_align": "center",
+    "product_grid_image_size": "1:1",
+    "product_grid_image_fit": true,
+    "product_grid_masonry": false,
+    "product_grid_label": true,
+    "product_grid_label_sale_style": "percentage",
+    "product_grid_label_new": true,
+    "product_grid_label_new_days": 14,
+    "product_grid_label_title": "Hot",
+    "product_grid_label_collection": "",
+    "product_grid_detail_style": "default",
+    "product_grid_price": true,
+    "product_grid_swatch": false,
+    "product_grid_swatch_image": false,
+    "product_grid_reviews": true,
+    "anim_load": true,
+    "anim_load_style": "interval",
+    "anim_interval_style": "fade_down",
+    "anim_zoom": false,
+    "cart_type": "modal",
+    "cart_notes_enable": false,
+    "cart_vendor_enable": false,
+    "cart_continue": true,
+    "search_enable": true,
+    "search_limit": "product,article,page",
+    "search_linklist": "main-menu",
+    "share_facebook": false,
+    "share_twitter": false,
+    "share_pinterest": false,
+    "share_fancy": false,
+    "share_mail": false,
+    "social_facebook_link": "https:\/\/www.facebook.com\/ommacosmetics",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/omma.cosmetics\/",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@omma.cosmetics",
+    "social_tumblr_link": "",
+    "social_snapchat_link": "",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCH4QHUpU-nAuu-LxaOwQL2w",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "social_untappd_link": "",
+    "favicon": "shopify:\/\/shop_images\/omma_favicon_white_small_42b8e08d-f326-4630-91bf-c601c79d0cb7.webp",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/shopify_brand_logo_omma_66dd1105-0e4d-46f1-88ca-b235f7ce1a9b.webp",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#FFFFFF",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#212121",
+    "checkout_button_color": "#429349",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "b9ca343c-a306-4a06-84b9-5546cd6c8176": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/shopify_brand_logo_omma_white.webp",
+              "image_width": 200,
+              "link": "\/"
+            }
+          },
+          "5a8609d7-6cd4-4c73-a837-4967f34cece3": {
+            "type": "text",
+            "settings": {
+              "title": "OMMA represents the change love can have on your skin, in all its forms.",
+              "text": "<p>OMMA is synonymous with protection, care, and nurturing and represents the journey from within towards the origins, a change for the better, towards an ideal self, renewed and more self-aware of their own being, hence, more than skincare. <\/p>"
+            }
+          },
+          "1494463355206": {
+            "type": "linklist",
+            "settings": {
+              "title": "Menu",
+              "linklist": "omma"
+            }
+          },
+          "599d1f17-e8f0-4264-bffb-778016a4c150": {
+            "type": "social",
+            "settings": {
+              "title": "Follow OMMA"
+            }
+          }
+        },
+        "block_order": [
+          "b9ca343c-a306-4a06-84b9-5546cd6c8176",
+          "5a8609d7-6cd4-4c73-a837-4967f34cece3",
+          "1494463355206",
+          "599d1f17-e8f0-4264-bffb-778016a4c150"
+        ],
+        "settings": {
+          "footer_bg": "#bbbcbc",
+          "footer_style": "light",
+          "show_payment_icons": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "show_border": false,
+          "header_bg": "rgba(0,0,0,0)",
+          "header_bg_dp": "#ffffff",
+          "header_style": "dark",
+          "logo": "shopify:\/\/shop_images\/ommalogo.png",
+          "logo_size": 3,
+          "logo_size_mobile": 4,
+          "logo_spacing": 4,
+          "main_linklist": "main-menu",
+          "layout": "left",
+          "style": "transparent",
+          "parent_links": false,
+          "mega_nav": false,
+          "mega_image_link": "",
+          "mega_title": "",
+          "mega_text": "",
+          "mega_link_title": "Learn more",
+          "mega_link": "",
+          "enable_country_selector": false,
+          "enable_language_selector": false
+        }
+      },
+      "mobile-drawer": {
+        "type": "mobile-drawer",
+        "settings": {
+          "main_linklist": "main-menu",
+          "contact_title": "Contact",
+          "show_contact_number": false,
+          "show_contact_email": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "show_social": true,
+          "cta_image_link": "",
+          "cta_title": "",
+          "cta_text": "",
+          "cta_link_title": "Learn more",
+          "cta_link": ""
+        }
+      },
+      "promo-pop": {
+        "type": "promo-pop",
+        "settings": {
+          "enable": false,
+          "mobile": false,
+          "title": "Popup",
+          "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.<\/p>",
+          "link_title": "More info",
+          "link": "",
+          "delay": 10,
+          "expiry": 30,
+          "enable_newsletter": true
+        }
+      },
+      "age-checker": {
+        "type": "age-checker",
+        "settings": {
+          "enable": false,
+          "title": "Age verification",
+          "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.<\/p>",
+          "enter_btn_label": "Enter",
+          "leave_btn_label": "Leave",
+          "leave_link": ""
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/shopify_brand_logo_omma.webp",
+          "logo_size": 3,
+          "logo_spacing": 0,
+          "show_border": false
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "bg_image": ""
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "related_title": "You may also like",
+          "related_mobile_layout": "carousel",
+          "related_grid_num": 3,
+          "grid_mobile": "1",
+          "related_grid_row": 1
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "message_show": true,
+          "home_page_only": false,
+          "message_text": "🎉 Black Friday & Official Launch: 20% OFF + FREE Shipping 🎉",
+          "message_link": "",
+          "message_color_bg": "#212121",
+          "message_color_text": "#ffffff"
+        }
+      },
+      "footer-newsletter": {
+        "type": "footer-newsletter",
+        "settings": {
+          "footer_newsletter_enable": false,
+          "footer_newsletter_home": false,
+          "newsletter_bg": "rgba(0,0,0,0)",
+          "newsletter_style": "default",
+          "footer_newsletter_title": "Join #ommajourney",
+          "footer_newsletter_desc": "<p><strong>Subscribe <\/strong>&<strong> Save 10% <\/strong>on your first order & Get really good emails.<\/p>"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ],
+    "blocks": {
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Morning": {
+      "color_headings": "#212121",
+      "color_text": "#212121",
+      "color_alt_text": "#666666",
+      "color_brand": "#212121",
+      "color_accent": "#ffde64",
+      "color_button": "#ffffff",
+      "product_grid_sale_color": "#c00000",
+      "product_grid_bg": "rgba(0,0,0,0)",
+      "color_drawer_bg": "#ffffff",
+      "color_drawer_style": "dark",
+      "type_base_font": "montserrat_n4",
+      "type_base_size": "15",
+      "type_header_font": "montserrat_n4",
+      "type_header_size": "0.85",
+      "type_header_letterspace": 2,
+      "type_header_capitalize": true,
+      "type_header_underline": true,
+      "type_header_underline_size": 3,
+      "type_nav_font": "montserrat_n4",
+      "type_nav_size": "11",
+      "type_nav_letterspace": 2,
+      "type_nav_capitalize": true,
+      "type_button_font": "montserrat_n4",
+      "type_button_size": "11",
+      "type_button_letterspace": 2,
+      "type_button_capitalize": true,
+      "product_grid_vendor": false,
+      "product_grid_second_hover": true,
+      "product_grid_quick_buy": "hover",
+      "product_grid_align": "center",
+      "product_grid_image_size": "1:1",
+      "product_grid_image_fit": true,
+      "product_grid_masonry": false,
+      "product_grid_label": true,
+      "product_grid_label_sale_style": "text",
+      "product_grid_label_new": true,
+      "product_grid_label_new_days": 14,
+      "product_grid_label_title": "Hot",
+      "product_grid_label_collection": "",
+      "product_grid_detail_style": "default",
+      "product_grid_price": true,
+      "product_grid_swatch": false,
+      "product_grid_swatch_image": false,
+      "product_grid_reviews": false,
+      "anim_load": true,
+      "anim_load_style": "interval",
+      "anim_interval_style": "fade_down",
+      "anim_zoom": true,
+      "cart_type": "modal",
+      "cart_notes_enable": false,
+      "cart_vendor_enable": false,
+      "cart_continue": true,
+      "search_enable": true,
+      "search_limit": "product,article,page",
+      "search_linklist": "main-menu",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "share_fancy": true,
+      "share_mail": true,
+      "social_facebook_link": "",
+      "social_twitter_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "social_fancy_link": "",
+      "social_untappd_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494343961341": {
+              "type": "linklist",
+              "settings": {
+                "title": "Menu",
+                "linklist": "footer"
+              }
+            },
+            "1494463355206": {
+              "type": "linklist",
+              "settings": {
+                "title": "Menu",
+                "linklist": "footer"
+              }
+            },
+            "1494343958665": {
+              "type": "contact",
+              "settings": {
+                "title": "Contact",
+                "show_email": true,
+                "show_number": true,
+                "show_address": true,
+                "show_social": true
+              }
+            },
+            "1494463348419": {
+              "type": "text",
+              "settings": {
+                "title": "Text area",
+                "text": "<p>Add some text such as a mini biography or your mission statement.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "1494343961341",
+            "1494463355206",
+            "1494343958665",
+            "1494463348419"
+          ],
+          "settings": {
+            "footer_bg": "#222222",
+            "footer_style": "light",
+            "show_payment_icons": true,
+            "enable_country_selector": true,
+            "enable_language_selector": true
+          }
+        },
+        "footer-newsletter": {
+          "type": "footer-newsletter",
+          "settings": {
+            "footer_newsletter_enable": true,
+            "footer_newsletter_home": false,
+            "newsletter_bg": "#fff8d9",
+            "newsletter_style": "default",
+            "footer_newsletter_title": "Newsletter",
+            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.<\/p>"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_border": true,
+            "header_bg": "#ffffff",
+            "header_style": "dark",
+            "logo_size": 5,
+            "logo_size_mobile": 5,
+            "logo_spacing": 3,
+            "main_linklist": "main-menu",
+            "layout": "left",
+            "style": "scroll",
+            "parent_links": true,
+            "mega_nav": true,
+            "mega_image_link": "",
+            "mega_title": "",
+            "mega_text": "",
+            "mega_link_title": "Learn more",
+            "mega_link": "",
+            "enable_country_selector": false,
+            "enable_language_selector": false
+          }
+        },
+        "mobile-drawer": {
+          "type": "mobile-drawer",
+          "settings": {
+            "main_linklist": "main-menu",
+            "contact_title": "Contact",
+            "show_contact_number": true,
+            "show_contact_email": true,
+            "enable_country_selector": true,
+            "enable_language_selector": true,
+            "show_social": true,
+            "cta_image_link": "",
+            "cta_title": "",
+            "cta_text": "",
+            "cta_link_title": "Learn more",
+            "cta_link": ""
+          }
+        },
+        "promo-pop": {
+          "type": "promo-pop",
+          "settings": {
+            "enable": false,
+            "mobile": false,
+            "title": "Popup",
+            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.<\/p>",
+            "link_title": "More info",
+            "link": "",
+            "delay": 10,
+            "expiry": 30,
+            "enable_newsletter": true
+          }
+        },
+        "age-checker": {
+          "type": "age-checker",
+          "settings": {
+            "enable": false,
+            "title": "Age verification",
+            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.<\/p>",
+            "enter_btn_label": "Enter",
+            "leave_btn_label": "Leave",
+            "leave_link": ""
+          }
+        },
+        "password-header": {
+          "type": "password-header",
+          "settings": {
+            "logo": "",
+            "logo_size": 5,
+            "logo_spacing": 3,
+            "show_border": true
+          }
+        },
+        "password-content": {
+          "type": "password-content",
+          "settings": {
+            "bg_image": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "related_title": "You may also like",
+            "related_mobile_layout": "carousel",
+            "related_grid_num": 3,
+            "grid_mobile": "1",
+            "related_grid_row": 1
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "message_show": true,
+            "home_page_only": true,
+            "message_text": "Use this announcement bar to share some news and link to page or product.",
+            "message_link": "",
+            "message_color_bg": "#222",
+            "message_color_text": "#fff"
+          }
+        }
+      },
+      "content_for_index": [
+
+      ]
+    },
+    "Evening": {
+      "color_headings": "#212121",
+      "color_text": "#212121",
+      "color_alt_text": "#666666",
+      "color_brand": "#fad018",
+      "color_accent": "#f0f0f0",
+      "color_button": "#111111",
+      "product_grid_sale_color": "#c00000",
+      "product_grid_bg": "rgba(0,0,0,0)",
+      "color_drawer_bg": "#fef7d7",
+      "color_drawer_style": "dark",
+      "type_base_font": "muli_n4",
+      "type_base_size": "15",
+      "type_header_font": "oswald_n4",
+      "type_header_size": "0.85",
+      "type_header_letterspace": 1,
+      "type_header_capitalize": true,
+      "type_header_underline": true,
+      "type_header_underline_size": 3,
+      "type_nav_font": "oswald_n4",
+      "type_nav_size": "13",
+      "type_nav_letterspace": 1,
+      "type_nav_capitalize": true,
+      "type_button_font": "oswald_n4",
+      "type_button_size": "13",
+      "type_button_letterspace": 1,
+      "type_button_capitalize": true,
+      "product_grid_vendor": false,
+      "product_grid_second_hover": true,
+      "product_grid_quick_buy": "hover",
+      "product_grid_align": "center",
+      "product_grid_image_size": "1:1",
+      "product_grid_image_fit": true,
+      "product_grid_masonry": false,
+      "product_grid_label": true,
+      "product_grid_label_sale_style": "text",
+      "product_grid_label_new": true,
+      "product_grid_label_new_days": 14,
+      "product_grid_label_title": "Hot",
+      "product_grid_label_collection": "",
+      "product_grid_detail_style": "default",
+      "product_grid_price": true,
+      "product_grid_swatch": false,
+      "product_grid_swatch_image": false,
+      "product_grid_reviews": false,
+      "anim_load": true,
+      "anim_load_style": "interval",
+      "anim_interval_style": "fade_down",
+      "anim_zoom": true,
+      "cart_type": "modal",
+      "cart_notes_enable": false,
+      "cart_vendor_enable": false,
+      "cart_continue": true,
+      "search_enable": true,
+      "search_limit": "product,article,page",
+      "search_linklist": "main-menu",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "share_fancy": true,
+      "share_mail": true,
+      "social_facebook_link": "",
+      "social_twitter_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "social_fancy_link": "",
+      "social_untappd_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494343961341": {
+              "type": "linklist",
+              "settings": {
+                "title": "Menu",
+                "linklist": "footer"
+              }
+            },
+            "1494463355206": {
+              "type": "linklist",
+              "settings": {
+                "title": "Menu",
+                "linklist": "footer"
+              }
+            },
+            "1494343958665": {
+              "type": "contact",
+              "settings": {
+                "title": "Contact",
+                "show_email": true,
+                "show_number": true,
+                "show_address": true,
+                "show_social": true
+              }
+            },
+            "1494463348419": {
+              "type": "text",
+              "settings": {
+                "title": "Text area",
+                "text": "<p>Add some text such as a mini biography or your mission statement.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "1494343961341",
+            "1494463355206",
+            "1494343958665",
+            "1494463348419"
+          ],
+          "settings": {
+            "footer_bg": "#222222",
+            "footer_style": "light",
+            "show_payment_icons": true,
+            "enable_country_selector": true,
+            "enable_language_selector": true
+          }
+        },
+        "footer-newsletter": {
+          "type": "footer-newsletter",
+          "settings": {
+            "footer_newsletter_enable": true,
+            "footer_newsletter_home": false,
+            "newsletter_bg": "#fff8d9",
+            "newsletter_style": "default",
+            "footer_newsletter_title": "Newsletter",
+            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.<\/p>"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_border": true,
+            "header_bg": "#ffffff",
+            "header_style": "dark",
+            "logo_size": 5,
+            "logo_size_mobile": 5,
+            "logo_spacing": 3,
+            "main_linklist": "main-menu",
+            "layout": "left",
+            "style": "scroll",
+            "parent_links": true,
+            "mega_nav": true,
+            "mega_image_link": "",
+            "mega_title": "",
+            "mega_text": "",
+            "mega_link_title": "Learn more",
+            "mega_link": "",
+            "enable_country_selector": false,
+            "enable_language_selector": false
+          }
+        },
+        "mobile-drawer": {
+          "type": "mobile-drawer",
+          "settings": {
+            "main_linklist": "main-menu",
+            "contact_title": "Contact",
+            "show_contact_number": true,
+            "show_contact_email": true,
+            "enable_country_selector": true,
+            "enable_language_selector": true,
+            "show_social": true,
+            "cta_image_link": "",
+            "cta_title": "",
+            "cta_text": "",
+            "cta_link_title": "Learn more",
+            "cta_link": ""
+          }
+        },
+        "promo-pop": {
+          "type": "promo-pop",
+          "settings": {
+            "enable": false,
+            "mobile": false,
+            "title": "Popup",
+            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.<\/p>",
+            "link_title": "More info",
+            "link": "",
+            "delay": 10,
+            "expiry": 30,
+            "enable_newsletter": true
+          }
+        },
+        "age-checker": {
+          "type": "age-checker",
+          "settings": {
+            "enable": false,
+            "title": "Age verification",
+            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.<\/p>",
+            "enter_btn_label": "Enter",
+            "leave_btn_label": "Leave",
+            "leave_link": ""
+          }
+        },
+        "password-header": {
+          "type": "password-header",
+          "settings": {
+            "logo": "",
+            "logo_size": 5,
+            "logo_spacing": 3,
+            "show_border": true
+          }
+        },
+        "password-content": {
+          "type": "password-content",
+          "settings": {
+            "bg_image": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "related_title": "You may also like",
+            "related_mobile_layout": "carousel",
+            "related_grid_num": 3,
+            "grid_mobile": "1",
+            "related_grid_row": 1
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "message_show": true,
+            "home_page_only": true,
+            "message_text": "Use this announcement bar to share some news and link to page or product.",
+            "message_link": "",
+            "message_color_bg": "#222",
+            "message_color_text": "#fff"
+          }
+        }
+      },
+      "content_for_index": [
+
+      ]
+    },
+    "Twilight": {
+      "color_headings": "#212121",
+      "color_text": "#212121",
+      "color_alt_text": "#666666",
+      "color_brand": "#212121",
+      "color_accent": "#f0f0f0",
+      "color_button": "#ffffff",
+      "product_grid_sale_color": "#c00000",
+      "product_grid_bg": "rgba(0,0,0,0)",
+      "color_drawer_bg": "#ffffff",
+      "color_drawer_style": "dark",
+      "type_base_font": "assistant_n4",
+      "type_base_size": "15",
+      "type_header_font": "assistant_n4",
+      "type_header_size": "0.85",
+      "type_header_letterspace": 1,
+      "type_header_capitalize": true,
+      "type_header_underline": true,
+      "type_header_underline_size": 3,
+      "type_nav_font": "assistant_n4",
+      "type_nav_size": "13",
+      "type_nav_letterspace": 1,
+      "type_nav_capitalize": true,
+      "type_button_font": "nunito_sans_n3",
+      "type_button_size": "13",
+      "type_button_letterspace": 1,
+      "type_button_capitalize": true,
+      "product_grid_vendor": false,
+      "product_grid_second_hover": true,
+      "product_grid_quick_buy": "hover",
+      "product_grid_align": "center",
+      "product_grid_image_size": "1:1",
+      "product_grid_image_fit": true,
+      "product_grid_masonry": false,
+      "product_grid_label": true,
+      "product_grid_label_sale_style": "text",
+      "product_grid_label_new": true,
+      "product_grid_label_new_days": 14,
+      "product_grid_label_title": "Hot",
+      "product_grid_label_collection": "",
+      "product_grid_detail_style": "default",
+      "product_grid_price": true,
+      "product_grid_swatch": false,
+      "product_grid_swatch_image": false,
+      "product_grid_reviews": false,
+      "anim_load": true,
+      "anim_load_style": "interval",
+      "anim_interval_style": "fade_down",
+      "anim_zoom": true,
+      "cart_type": "modal",
+      "cart_notes_enable": false,
+      "cart_vendor_enable": false,
+      "cart_continue": true,
+      "search_enable": true,
+      "search_limit": "product,article,page",
+      "search_linklist": "main-menu",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "share_fancy": true,
+      "share_mail": true,
+      "social_facebook_link": "",
+      "social_twitter_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "social_fancy_link": "",
+      "social_untappd_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494343961341": {
+              "type": "linklist",
+              "settings": {
+                "title": "Menu",
+                "linklist": "footer"
+              }
+            },
+            "1494463355206": {
+              "type": "linklist",
+              "settings": {
+                "title": "Menu",
+                "linklist": "footer"
+              }
+            },
+            "1494343958665": {
+              "type": "contact",
+              "settings": {
+                "title": "Contact",
+                "show_email": true,
+                "show_number": true,
+                "show_address": true,
+                "show_social": true
+              }
+            },
+            "1494463348419": {
+              "type": "text",
+              "settings": {
+                "title": "Text area",
+                "text": "<p>Add some text such as a mini biography or your mission statement.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "1494343961341",
+            "1494463355206",
+            "1494343958665",
+            "1494463348419"
+          ],
+          "settings": {
+            "footer_bg": "#f0f0f0",
+            "footer_style": "dark",
+            "show_payment_icons": true,
+            "enable_country_selector": true,
+            "enable_language_selector": true
+          }
+        },
+        "footer-newsletter": {
+          "type": "footer-newsletter",
+          "settings": {
+            "footer_newsletter_enable": true,
+            "footer_newsletter_home": false,
+            "newsletter_bg": "#fff8d9",
+            "newsletter_style": "default",
+            "footer_newsletter_title": "Newsletter",
+            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.<\/p>"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_border": true,
+            "header_bg": "#ffffff",
+            "header_style": "dark",
+            "logo_size": 5,
+            "logo_size_mobile": 5,
+            "logo_spacing": 3,
+            "main_linklist": "main-menu",
+            "layout": "left",
+            "style": "scroll",
+            "parent_links": true,
+            "mega_nav": true,
+            "mega_image_link": "",
+            "mega_title": "",
+            "mega_text": "",
+            "mega_link_title": "Learn more",
+            "mega_link": "",
+            "enable_country_selector": false,
+            "enable_language_selector": false
+          }
+        },
+        "mobile-drawer": {
+          "type": "mobile-drawer",
+          "settings": {
+            "main_linklist": "main-menu",
+            "contact_title": "Contact",
+            "show_contact_number": true,
+            "show_contact_email": true,
+            "enable_country_selector": true,
+            "enable_language_selector": true,
+            "show_social": true,
+            "cta_image_link": "",
+            "cta_title": "",
+            "cta_text": "",
+            "cta_link_title": "Learn more",
+            "cta_link": ""
+          }
+        },
+        "promo-pop": {
+          "type": "promo-pop",
+          "settings": {
+            "enable": false,
+            "mobile": false,
+            "title": "Popup",
+            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.<\/p>",
+            "link_title": "More info",
+            "link": "",
+            "delay": 10,
+            "expiry": 30,
+            "enable_newsletter": true
+          }
+        },
+        "age-checker": {
+          "type": "age-checker",
+          "settings": {
+            "enable": false,
+            "title": "Age verification",
+            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.<\/p>",
+            "enter_btn_label": "Enter",
+            "leave_btn_label": "Leave",
+            "leave_link": ""
+          }
+        },
+        "password-header": {
+          "type": "password-header",
+          "settings": {
+            "logo": "",
+            "logo_size": 5,
+            "logo_spacing": 3,
+            "show_border": true
+          }
+        },
+        "password-content": {
+          "type": "password-content",
+          "settings": {
+            "bg_image": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "related_title": "You may also like",
+            "related_mobile_layout": "carousel",
+            "related_grid_num": 3,
+            "grid_mobile": "1",
+            "related_grid_row": 1
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "message_show": true,
+            "home_page_only": true,
+            "message_text": "Use this announcement bar to share some news and link to page or product.",
+            "message_link": "",
+            "message_color_bg": "#222",
+            "message_color_text": "#fff"
+          }
+        }
+      },
+      "content_for_index": [
+
+      ]
+    },
+    "Weekend": {
+      "color_headings": "#212121",
+      "color_text": "#535353",
+      "color_alt_text": "#666666",
+      "color_brand": "#98b859",
+      "color_accent": "#f0f0f0",
+      "color_button": "#ffffff",
+      "color_bg": "#f8f7f1",
+      "product_grid_sale_color": "#c00000",
+      "product_grid_bg": "rgba(0,0,0,0)",
+      "color_drawer_bg": "#f0f0f0",
+      "color_drawer_style": "dark",
+      "type_base_font": "nunito_sans_n3",
+      "type_base_size": "15",
+      "type_header_font": "old_standard_tt_n4",
+      "type_header_size": "0.85",
+      "type_header_letterspace": 0,
+      "type_header_capitalize": true,
+      "type_header_underline": true,
+      "type_header_underline_size": 4,
+      "type_nav_font": "nunito_sans_n3",
+      "type_nav_size": "13",
+      "type_nav_letterspace": 1,
+      "type_nav_capitalize": true,
+      "type_button_font": "nunito_sans_n3",
+      "type_button_size": "13",
+      "type_button_letterspace": 1,
+      "type_button_capitalize": true,
+      "product_grid_vendor": false,
+      "product_grid_second_hover": true,
+      "product_grid_quick_buy": "hover",
+      "product_grid_align": "center",
+      "product_grid_image_size": "1:1",
+      "product_grid_image_fit": true,
+      "product_grid_masonry": false,
+      "product_grid_label": true,
+      "product_grid_label_sale_style": "text",
+      "product_grid_label_new": true,
+      "product_grid_label_new_days": 14,
+      "product_grid_label_title": "Hot",
+      "product_grid_label_collection": "",
+      "product_grid_detail_style": "default",
+      "product_grid_price": true,
+      "product_grid_swatch": false,
+      "product_grid_swatch_image": false,
+      "product_grid_reviews": false,
+      "anim_load": true,
+      "anim_load_style": "interval",
+      "anim_interval_style": "fade_down",
+      "anim_zoom": true,
+      "cart_type": "modal",
+      "cart_notes_enable": false,
+      "cart_vendor_enable": false,
+      "cart_continue": true,
+      "search_enable": true,
+      "search_limit": "product,article,page",
+      "search_linklist": "main-menu",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "share_fancy": true,
+      "share_mail": true,
+      "social_facebook_link": "",
+      "social_twitter_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "social_fancy_link": "",
+      "social_untappd_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494343961341": {
+              "type": "linklist",
+              "settings": {
+                "title": "Menu",
+                "linklist": "footer"
+              }
+            },
+            "1494463355206": {
+              "type": "linklist",
+              "settings": {
+                "title": "Menu",
+                "linklist": "footer"
+              }
+            },
+            "1494343958665": {
+              "type": "contact",
+              "settings": {
+                "title": "Contact",
+                "show_email": true,
+                "show_number": true,
+                "show_address": true,
+                "show_social": true
+              }
+            },
+            "1494463348419": {
+              "type": "text",
+              "settings": {
+                "title": "Text area",
+                "text": "<p>Add some text such as a mini biography or your mission statement.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "1494343961341",
+            "1494463355206",
+            "1494343958665",
+            "1494463348419"
+          ],
+          "settings": {
+            "footer_bg": "#3d3d38",
+            "footer_style": "light",
+            "show_payment_icons": true,
+            "enable_country_selector": true,
+            "enable_language_selector": true
+          }
+        },
+        "footer-newsletter": {
+          "type": "footer-newsletter",
+          "settings": {
+            "footer_newsletter_enable": true,
+            "footer_newsletter_home": false,
+            "newsletter_bg": "#efede1",
+            "newsletter_style": "default",
+            "footer_newsletter_title": "Newsletter",
+            "footer_newsletter_desc": "<p>Let your customers know what to expect if they sign up to your mailing list.<\/p>"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "show_border": true,
+            "header_bg": "#f8f7f1",
+            "header_style": "dark",
+            "logo_size": 5,
+            "logo_size_mobile": 5,
+            "logo_spacing": 3,
+            "main_linklist": "main-menu",
+            "layout": "left",
+            "style": "scroll",
+            "parent_links": true,
+            "mega_nav": true,
+            "mega_image_link": "",
+            "mega_title": "",
+            "mega_text": "",
+            "mega_link_title": "Learn more",
+            "mega_link": "",
+            "enable_country_selector": false,
+            "enable_language_selector": false
+          }
+        },
+        "mobile-drawer": {
+          "type": "mobile-drawer",
+          "settings": {
+            "main_linklist": "main-menu",
+            "contact_title": "Contact",
+            "show_contact_number": true,
+            "show_contact_email": true,
+            "enable_country_selector": true,
+            "enable_language_selector": true,
+            "show_social": true,
+            "cta_image_link": "",
+            "cta_title": "",
+            "cta_text": "",
+            "cta_link_title": "Learn more",
+            "cta_link": ""
+          }
+        },
+        "promo-pop": {
+          "type": "promo-pop",
+          "settings": {
+            "enable": false,
+            "mobile": false,
+            "title": "Popup",
+            "text": "<p>Use this popup to embed a mailing list sign up form. Alternatively use it as a simple call to action with a link to a product or a page.<\/p>",
+            "link_title": "More info",
+            "link": "",
+            "delay": 10,
+            "expiry": 30,
+            "enable_newsletter": true
+          }
+        },
+        "age-checker": {
+          "type": "age-checker",
+          "settings": {
+            "enable": false,
+            "title": "Age verification",
+            "text": "<p>By clicking enter you are verifying that you are old enough to consume alcohol.<\/p>",
+            "enter_btn_label": "Enter",
+            "leave_btn_label": "Leave",
+            "leave_link": ""
+          }
+        },
+        "password-header": {
+          "type": "password-header",
+          "settings": {
+            "logo": "",
+            "logo_size": 5,
+            "logo_spacing": 3,
+            "show_border": true
+          }
+        },
+        "password-content": {
+          "type": "password-content",
+          "settings": {
+            "bg_image": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "related_title": "You may also like",
+            "related_mobile_layout": "carousel",
+            "related_grid_num": 3,
+            "grid_mobile": "1",
+            "related_grid_row": 1
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "message_show": true,
+            "home_page_only": true,
+            "message_text": "Use this announcement bar to share some news and link to page or product.",
+            "message_link": "",
+            "message_color_bg": "#222",
+            "message_color_text": "#fff"
+          }
+        }
+      },
+      "content_for_index": [
+
+      ]
+    }
+  }
+}

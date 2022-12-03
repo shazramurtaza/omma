@@ -1,0 +1,334 @@
+<section class="section section--page page page--faq faq js-faq-page">
+    <div class="container container--large">
+        <div class="faq__wrapper">
+ {% if section.settings.title != blank %}
+            <div class="section__title">
+                <h2 class="section__title-text">{{ section.settings.title | escape }}</h2>
+            </div>
+        {% endif %}
+            {% if section.settings.enable_sidebar %}
+                <div class="faq__categories js-faq-categories u-hidden@desk-down">
+                    <h2 class="faq__categories-title h5">{{ 'faq.general.categories_title' | t }}</h2>
+                    <ul class="faq__categories-items o-list-bare">
+                        {% for block in section.blocks %}
+                            {% if block.type == 'category' %}
+                                <li class="faq__categories-item"><a href="#cat-{{ section.id }}-{{ forloop.index }}" class="faq__categories-link js-faq-category-link js-scroll-id">{{ block.settings.title }}</a></li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+
+            <div class="faq__accordion js-accordion">
+                {% for block in section.blocks %}
+                    {% if block.type == 'article' %}
+                        <a href="#faq-{{ section.id }}-{{ forloop.index }}" class="faq__accordion__title js-accordion-trigger" style="font-size: {{ block.settings.h_text_fs }}px !important; color: {{ block.settings.h_text_col }} !important;  line-height: {{ block.settings.h_text_line_space }}px !important;"{{ block.shopify_attributes }}>
+                            <p class="faq__accordion__title-text">{{ block.settings.title }}</p>
+                            <span class="faq__accordion__title-icon icon-fallback">
+                                <i class="icon icon--plus" aria-hidden="true"></i>
+                                <span class="icon-fallback__text">{{ 'products.layout.tab_label' | t }}</span>
+                            </span>
+                        </a>
+                        <div id="faq-{{ section.id }}-{{ forloop.index }}" class="faq__accordion__item js-accordion-info">
+                            {% unless block.settings.text == blank %}
+                                <div class="faq__accordion__item-wrap rte">
+                                    {{ block.settings.text }}
+                                </div>
+                            {% endunless %}
+                            {% if block.settings.image %}
+                                <img src="{{ block.settings.image | img_url: '1200x' }}" class="faq__accordion__item__image" alt="{{ block.settings.image.alt }}">
+                            {% endif %}
+                        </div>
+              <div class="border-bottom"></div>
+                    {% endif %}
+                    {% if block.type == 'category' %}
+                        <div class="faq__category js-faq-category" id="cat-{{ section.id }}-{{ forloop.index }}" {{ block.shopify_attributes }}>
+                            <div class="section__title faq__category__title">
+                                <h2 class="section__title-text faq__category__title-text h4">{{ block.settings.title }}</h2>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            {% unless section.settings.cta_link == blank %}
+                <div class="faq__cta u-text-center"> 
+                    <div class="faq__cta-btn">
+                        {%- if section.settings.cta_style == 'button' -%}
+                            <a href="{{ section.settings.cta_link }}" class="faq__cta-btn__btn c-btn c-btn--primary">{{ section.settings.cta_link_title | escape }}</a>    
+                        {%- else -%}
+                            <a href="{{ section.settings.cta_link }}" class="faq__cta-btn__btn link link--arrow">{{ section.settings.cta_link_title | escape }}</a>    
+                        {%- endif -%}
+                    </div>
+                </div>
+            {% endunless %}
+
+        </div>
+    </div>
+
+</section>
+<style>
+ #{{ page_title | handle }} .js-section__faq-page{
+    background:{{ section.settings.image_bg-color }};
+  }
+  {% if section.settings.side_image_icon %}
+ #{{ page_title | handle }} .js-section__faq-page .container.container--large:after {
+    content: ' ';
+    background: url({{ section.settings.image_side | img_url: '600x' }});
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 21;
+     top: {{ section.settings.image_side-top }}%;
+    bottom: -{{ section.settings.image_side-bottom }}px;
+    left: {{ section.settings.image_side-left }}%;
+    right: {{ section.settings.image_side-right }}%;
+}
+   {%- endif -%}
+  
+   {% for block in section.blocks %}
+  .faq__accordion__item-wrap.rte p {
+      font-size: {{ block.settings.text_fs }}px;
+    color: {{ block.settings.text_col }};
+    line-height: {{ block.settings.text_line_space }}px;
+  }
+ {% endfor %}
+  
+  
+</style>
+
+{% schema %}
+{
+    "name": "FAQs",
+    "class": "js-section__faq-page",
+    "settings": [
+{
+            "type": "color",
+            "id": "image_bg-color",
+            "label": "Background color",
+            "default": "#F8F7FA"
+        },
+ {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "faq"
+        },
+        {
+            "type": "checkbox",
+            "id": "enable_sidebar",
+            "label": "Enable category sidebar",
+            "default": false
+        },
+{
+        "type": "header",
+        "content": "Side Image"
+      },
+ {
+            "type": "checkbox",
+            "id": "side_image_icon",
+            "label": "Enable side image",
+            "default": true
+        },
+ {
+            "type": "image_picker",
+            "id": "image_side",
+            "label": "product related image",
+            "info": "this is for the image at the right side of banner"
+        },
+
+  {
+        "type": "range",
+        "id": "image_side-top",
+        "label": "Top",
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 40
+      },
+   {
+        "type": "range",
+        "id": "image_side-bottom",
+        "label": "Bottom",
+        "unit": "px",
+        "min": 0,
+        "max": 500,
+        "step": 5,
+        "default": 165
+      },
+   {
+        "type": "range",
+        "id": "image_side-left",
+        "label": "Left",
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 90
+      },
+   {
+        "type": "range",
+        "id": "image_side-right",
+        "label": "Right",
+        "unit": "%",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "default": 0
+      },
+
+        {
+            "type": "header",
+            "content": "Call to action"
+        },
+        {
+            "type": "text",
+            "id": "cta_link_title",
+            "label": "Link label",
+            "default": "Contact us"
+        },
+        {
+            "type": "url",
+            "id": "cta_link",
+            "label": "Link"
+        },
+        {
+            "type": "select",
+            "id": "cta_style",
+            "label": "Style",
+            "options": [
+                {
+                    "value": "link",
+                    "label": "Link"
+                },
+                {
+                    "value": "button",
+                    "label": "Button"
+                }
+            ],
+            "default": "link"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "article",
+            "name": "Article",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Heading",
+                    "default": "Article heading"
+                },
+{
+        "type": "range",
+        "id": "h_text_fs",
+        "label": "Text size",
+        "unit": "px",
+        "min": 0,
+        "max": 40,
+        "step": 1,
+        "default": 24
+      },
+   {
+        "type": "range",
+        "id": "h_text_line_space",
+        "label": "Line space",
+        "unit": "px",
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "default": 20
+      },
+   {
+            "type": "color",
+            "id": "h_text_col",
+            "label": "text color",
+            "default": "#212121"
+        },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text",
+                    "default": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>"
+                },
+ {
+        "type": "range",
+        "id": "text_fs",
+        "label": "Text size",
+        "unit": "px",
+        "min": 0,
+        "max": 30,
+        "step": 1,
+        "default": 15
+      },
+   {
+        "type": "range",
+        "id": "text_line_space",
+        "label": "Line space",
+        "unit": "px",
+        "min": 0,
+        "max": 60,
+        "step": 1,
+        "default": 20
+      },
+   {
+            "type": "color",
+            "id": "text_col",
+            "label": "text color",
+            "default": "#212121"
+        },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                }
+            ]
+        },
+        {
+            "type": "category",
+            "name": "Category",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Heading",
+                    "default": "Category"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "FAQs",
+            "blocks": [
+                {
+                    "type": "category"
+                },
+                {
+                    "type": "article"
+                },
+                {
+                    "type": "article"
+                },
+                {
+                    "type": "article"
+                },
+                {
+                    "type": "category"
+                },
+                {
+                    "type": "article"
+                },
+                {
+                    "type": "article"
+                },
+                {
+                    "type": "article"
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

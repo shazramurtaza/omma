@@ -1,0 +1,33 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "1661591603dd3b0f38": {
+      "type": "section-custom",
+      "blocks": {
+        "166159160349f7cca5-2": {
+          "type": "button",
+          "settings": {
+            "title": "Read more about my #skinjourney",
+            "link": "shopify:\/\/blogs\/articles",
+            "color": "primary",
+            "size": "big",
+            "width": "1\/3"
+          }
+        }
+      },
+      "block_order": [
+        "166159160349f7cca5-2"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1661591603dd3b0f38"
+  ]
+}
