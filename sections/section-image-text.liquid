@@ -18,8 +18,8 @@
                                     <div class="o-ratio o-ratio--custom" style="padding-bottom:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
                                         <div class="o-ratio__content img-lazyload-cover">
                                             <img
-                                                class="home-promo__media-img"
-                                                src="{{ block.settings.image | img_url: '300x' }}"
+                                                class="home-promo__media-img opt_lazy"
+                                                data-src="{{ block.settings.image | img_url: '300x' }}"
                                                 srcset="{% render 'bgset', image: block.settings.image %}"
                                                 width="300"
                                                 height="{{ 300 | divided_by: block.settings.image.aspect_ratio | round }}"

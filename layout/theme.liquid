@@ -1,38 +1,49 @@
+{% comment %} you can always turn off the speedupkernel{% endcomment %}
+{%- assign speedupkernel = true -%}
+{%- assign is_admin_interface = false -%}
+
+{%- if speedupkernel -%}
+	{%- if request.host contains 'myshopify.com' -%}
+		{%- assign is_admin_interface = true -%}
+	{%- else -%}
+		{%- assign is_admin_interface = false -%}
+	{%- endif -%}
+
+	{%- if request.host contains 'shopifypreview.com' -%}
+		{%- assign is_admin_interface = false -%}
+	{%- endif -%}
+
+	{%- if request.host contains 'gempages.net' -%}
+		{%- assign is_admin_interface = true -%}
+	{%- endif -%}	
+
+	{%- if request.path contains 'cart' -%}
+		{%- assign is_admin_interface = true -%}
+	{%- endif -%}
+
+	{%- if request.path contains 'checkout' -%}
+		{%- assign is_admin_interface = true -%}
+	{%- endif -%}
+
+
+	{%- if request.path contains 'blog' -%}
+	  {%- assign speedupkernel = true -%}
+	{%- endif -%}
+{%- endif -%}
+
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
 <head>
-    {%- if template.name == 'product' -%}
-    {%- if product.handle contains 'navidium' -%}
-    <script>
-    location.replace('/');
-    </script>
-    {%- endif -%}
-    {%- endif -%}
+ 
 
   	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   	<meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
   	<meta name="theme-color" content="{{ settings.color_brand }}">
-<meta name="facebook-domain-verification" content="go3jv2t1x1k63fsixsgk8kx4ebn7cs" />
+  <meta name="facebook-domain-verification" content="go3jv2t1x1k63fsixsgk8kx4ebn7cs" />
   <meta name="p:domain_verify" content="1c3bccd8a0e74bb7d8023f14e1a9e948"/>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NK9WM1YGFZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());https://ommacosmetics.com/collections/frontpage/products/wow-patch-microcrystal-blemish-patch
 
-  gtag('config', 'G-NK9WM1YGFZ');
-</script>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-T8XTN5Z');</script>
-<!-- End Google Tag Manager -->
-	{% render 'network' %}
-
+  {% render 'network' %}
 	{%- if canonical_url != blank  -%}
     	<link rel="canonical" href="{{ canonical_url }}">
   	{%- endif -%}
@@ -40,6 +51,90 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   	{% if settings.favicon != blank %}
 	    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
 	{% endif %}
+
+	<img width="99999" height="99999" style="pointer-events: none; position: absolute; top: 0; left: 0; width: 99vw; height: 99vh; max-width: 99vw; max-height: 99vh;"  src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIHdpZHRoPSI5OTk5OXB4IiBoZWlnaHQ9Ijk5OTk5cHgiIHZpZXdCb3g9IjAgMCA5OTk5OSA5OTk5OSIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBzdHJva2U9Im5vbmUiIGZpbGw9Im5vbmUiIGZpbGwtb3BhY2l0eT0iMCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk5OTk5IiBoZWlnaHQ9Ijk5OTk5Ij48L3JlY3Q+IDwvZz4gPC9zdmc+">
+
+	{%- if template.name == 'product' -%}
+		{%- if product.handle contains 'navidium' -%}
+		<script>
+		location.replace('/');
+		</script>
+		{%- endif -%}
+		{%- endif -%}
+
+		<script> let nodes = [];</script>
+    {% unless is_admin_interface %}
+    <script>
+      const observer = new MutationObserver(mutations => {
+        mutations.forEach(({ addedNodes }) => {
+          addedNodes.forEach(node => {
+            // For each added script tag
+            if(node.nodeType === 1 && node.tagName === 'SCRIPT') {
+              const src = node.src || ''
+              const type = node.type
+              if(node.innerText){
+                if(node.innerText.includes('window.BOOMR') || node.innerText.includes('document.cookie.match')) 
+                {
+                  nodes.push(node);
+                  console.log(node.innerText);
+                  node.type = 'javascript/blocked'
+                  // Unnecessary, but cleaner: remove the node from the DOM
+                  if(node.parentElement){
+                    node.parentElement.removeChild(node)
+                  }
+                }
+              }
+              else{
+                if(node.src.includes("themes_support")){
+                  nodes.push(node);
+                  console.log(node.src);
+                  node.type = 'javascript/blocked'
+                  // Unnecessary, but cleaner: remove the node from the DOM
+                  if(node.parentElement){
+                    node.parentElement.removeChild(node)
+                  }
+                }
+              }
+            }
+          })
+        })
+      })
+      // Starts the monitoring
+      observer.observe(document.documentElement, {
+        childList: true,
+        subtree: true
+      })
+    </script>
+    {% endunless %}
+    <script>
+      let isLOAD = false;
+    </script>
+	
+	<style>
+		@media (max-width: 767px) {
+     .product-form__img {
+	min-height: 340px
+	}
+}
+	</style>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async defer src="https://www.googletagmanager.com/gtag/js?id=G-NK9WM1YGFZ"></script>
+<script defer>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());https://ommacosmetics.com/collections/frontpage/products/wow-patch-microcrystal-blemish-patch
+
+  gtag('config', 'G-NK9WM1YGFZ');
+</script>
+  <!-- Google Tag Manager -->
+<script defer>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T8XTN5Z');</script>
+<!-- End Google Tag Manager -->
+
 
 	<!-- Title and description ================================================== -->
   	{%- capture seo_title -%}
@@ -121,6 +216,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   	{% render 'css-variables' %}
 	{% render 'css-include' %}
 
+	
+	{% if settings.anim_load %}
+		<script src="{{ 'scrollreveal.min.js' | asset_url }}" defer></script>
+	{% endif %}
 	<!-- JS after CSSOM=================================================== -->
   	<script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
   	<script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
@@ -129,13 +228,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<script id="editor-scripts" src="{{ 'editor.js' | asset_url }}" defer="defer"></script>
 	{% endif %}
 
-  	{% if settings.anim_load %}
-		<script src="{{ 'scrollreveal.min.js' | asset_url }}"></script>
-	{% endif %}
   	{% if template contains 'customers' %}
-  		<script src="{{ 'shopify_common.js' | shopify_asset_url }}"></script>
+  		<script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer="defer"></script>
   	{% endif %}
 
+	  {% include "__opt-system-headers" %}
 	<!-- Header hook for plugins ================================================== -->
   	{{ content_for_header }}
 {{ 'custom-dev.css' | asset_url | stylesheet_tag }}
@@ -144,7 +241,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 {% include 'storify-head-content' %}
 	{% render 'vitals-loader' %}
-
+	<script async type="noscript-s" data-src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=VrJiNU"></script>
 </head>
 
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }} template-{{ template | replace: '.', '-' | handle }}" data-anim-load="{{ settings.anim_load }}" data-anim-interval-style="{{ settings.anim_interval_style }}" data-anim-zoom="{{ settings.anim_zoom }}" data-anim-interval="{% if settings.anim_load_style == 'interval' %}true{% else %}false{% endif %}" data-heading-border="{{ settings.type_header_underline }}">
@@ -285,6 +382,6 @@ var _learnq = _learnq || [];
  });
 </script>
  {% endif %}
-
+ <script src="{{ '__opt-theme.js' | asset_url }}" defer="defer"></script>
 </body>
 </html>

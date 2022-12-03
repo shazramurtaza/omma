@@ -1,5 +1,5 @@
-{{ 'nvd-styles.css' | asset_url | stylesheet_tag }}
 
+<link data-href="{{ 'nvd-styles.css' | asset_url }}" rel="stylesheet" type="text/css" media="all" />
 {% if.template !='cart' %}
 <style>
 
@@ -15,7 +15,7 @@
 </style>
 {% endif %}
 
-<script>
+<script type="noscript-s">
    var Shopify = Shopify || {};
    Shopify.money_format = '${{ amount }}';
    Shopify.formatMoney = function (cents, format = shopCurrency) {

@@ -86,7 +86,7 @@
                         {% unless block.settings.image == blank %}
 
                             <div class="home-carousel__bg-wrapper">
-                                <div class="home-carousel__bg--cover u-bg-contain u-bg-overlay" style="background-image: url('{{ block.settings.image | img_url: '1x1' }}')"></div>
+                                <div class="home-carousel__bg--cover u-bg-contain u-bg-overlay opt_bg_lazy" data-style="background-image: url('{{ block.settings.image | img_url: '1x1' }}')"></div>
 
                                 <div class="theme-spinner theme-spinner--white"></div>
 
@@ -104,8 +104,8 @@
                                         media="all and (min-width: 981px)"
                                     />
                                     <img
-                                        class="home-carousel__bg home-carousel__bg--{{ section.id }}{{ forloop.index0 }} home-carousel__bg--{{ block.settings.image_alignment }}"
-                                        src="{{ block.settings.image | img_url: '600x' }}"
+                                        class="home-carousel__bg opt_lazy home-carousel__bg--{{ section.id }}{{ forloop.index0 }} home-carousel__bg--{{ block.settings.image_alignment }}"
+                                        data-src="{{ block.settings.image | img_url: '600x' }}"
                                         width="600"
                                         height="{{ 600 | divided_by: block.settings.image.aspect_ratio | round }}"
                                         alt="{{ block.settings.image.alt }}"

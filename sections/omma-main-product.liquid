@@ -669,7 +669,7 @@ color: {{ block.settings.leaf_col}};
       <div class="product-upsell__product">
           <div class="product-upsell__image-wrap">
            <div class="product-upsell__image-box">
-             <a href="{{ upsell_product.url }}"><img src="{{ upsell_product.featured_image | image_url }}"/></a>
+             <a href="{{ upsell_product.url }}"><img class="opt_lazy" data-src="{{ upsell_product.featured_image | image_url }}"/></a>
             </div>
           </div>
           <div class="product-upsell__product-details">
