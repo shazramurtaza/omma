@@ -83,7 +83,7 @@
             "show_tax_notice": true,
             "show_separator": false,
             "low_stock_img": "shopify:\/\/shop_images\/IconExclamation.png",
-            "low_stock": "<p>BLACK FRIDAY: <strong>20% OFF + Free Shipping<\/strong><\/p>",
+            "low_stock": "<p>Holidays Sale: <strong>20% OFF + Free Shipping<\/strong><\/p>",
             "low_stock_fs": 13,
             "low_stock_col": "#000000",
             "limited_time_img": "shopify:\/\/shop_images\/gift-solid.png",
