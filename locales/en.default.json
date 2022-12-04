@@ -373,7 +373,7 @@
     },
     "checkout": {
       "order_summary": {
-        "shipping_default_value": "Official Launch FREE Shipping",
+        "shipping_default_value": "Holidays FREE Shipping",
         "discount_placeholder": "Discount code (only one per order)"
       },
       "marketing": {
