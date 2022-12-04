@@ -260,7 +260,7 @@
       "settings": {
         "title": "see what people are saying about wow patches!",
         "style_desktop": "grid",
-        "style_mobile": "grid",
+        "style_mobile": "carousel",
         "link_title": "",
         "link": ""
       }
