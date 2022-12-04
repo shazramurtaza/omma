@@ -87,7 +87,7 @@
             "low_stock_fs": 13,
             "low_stock_col": "#000000",
             "limited_time_img": "shopify:\/\/shop_images\/omma_clock_icon_21c4609d-1f04-483c-9520-e752922f5bbd.png",
-            "limited_time": "<p>BLACK FRIDAY 20% OFF<\/p>",
+            "limited_time": "<p>40% OFF + FREE Shipping<\/p>",
             "limited_time_fs": 13,
             "limited_time_col": "#212121",
             "limited_time_bg_col": "rgba(0,0,0,0)"
@@ -97,7 +97,7 @@
           "type": "dev_tab",
           "settings": {
             "tab_head_fs": 15,
-            "tab_1_title": "Description",
+            "tab_1_title": "Info",
             "tab_content_1": "<p>The <strong>combined power<\/strong> of <strong>microcrystals & hydrocolloid<\/strong> for <strong>overnight healing<\/strong> of your blemishes. <br\/>A mega bundle that gives you <strong>162 Microcrystals & Hydrocolloid<\/strong> patches in total. <\/p><p><strong>Best deal on the market<\/strong>! What more can we say?<br\/>Try it today, and see what Wow Patch Bundle can do for you.<\/p><p><strong>✓ Save money in the long run! <br\/><\/strong>Just think about how much you’ll save by stopping using tiring acne routines with creams that struggle to reach deep below the skin.<\/p>",
             "tab_content_1_fs": 15,
             "tab_content_1_col": "#262626",
@@ -191,11 +191,11 @@
           "type": "icon_text",
           "settings": {
             "image_truck": "shopify:\/\/shop_images\/Secure_Payment_Guaranteed_Safe_Checkout.png",
-            "text_truck": "Secure Payment & Guaranteed Safe Checkout",
+            "text_truck": "Secure Payment & Safe Checkout",
             "truck_col": "#212121",
             "truck_fs": 12,
             "image_leaf": "shopify:\/\/shop_images\/Risk_Free_60_Days_Money_Back_Guarantee.png",
-            "text_leaf": "Risk Free 30 Days Money Back Guarantee",
+            "text_leaf": "Risk Free 3-Day Money Back Guarantee",
             "leaf_col": "#212121",
             "leaf_fs": 12
           }
