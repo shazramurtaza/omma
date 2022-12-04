@@ -83,7 +83,7 @@
             "show_tax_notice": true,
             "show_separator": false,
             "low_stock_img": "shopify:\/\/shop_images\/IconExclamation.png",
-            "low_stock": "<p>BLACK FRIDAY: <strong>20% OFF + Free Shipping<\/strong><\/p>",
+            "low_stock": "<p><strong>Holiday Sale: 20% OFF + FREE Shipping<\/strong><\/p>",
             "low_stock_fs": 13,
             "low_stock_col": "#000000",
             "limited_time_img": "shopify:\/\/shop_images\/gift-solid.png",
@@ -102,7 +102,7 @@
             "tab_content_1_fs": 15,
             "tab_content_1_col": "#262626",
             "tab_content_1_lh": 21,
-            "tab_2_title": "Description",
+            "tab_2_title": "Info",
             "tab_content_2": "<p>Do you feel a painful pimple ready to emerge? Patch it with a Microcrystal WOW Patch and stop it from developing.<br\/>Powered by <strong>clinically-proven acne-fighting active ingredients<\/strong>, such as <strong>Salicylic Acid, Centella Asiatica, Tea Tree Extract, and Niacinamide<\/strong>, the microcrystals will dissolve and deliver the antibacterial ingredients straight to the source of the zit, <strong>visibly reducing inflammation overnight<\/strong>.<\/p><p>For \"unpoppable\" pimples, deep under the skin, that are sometimes red or painful to touch.<br\/><\/p><p><strong>✓ Save money in the long run! <br\/><\/strong>Just think about how much you’ll save by stopping using tiring acne routines with creams that struggle to reach deep below the skin.<\/p>",
             "tab_content_2_fs": 15,
             "tab_content_2_col": "#262626",
@@ -191,11 +191,11 @@
           "type": "icon_text",
           "settings": {
             "image_truck": "shopify:\/\/shop_images\/Secure_Payment_Guaranteed_Safe_Checkout.png",
-            "text_truck": "Secure Payment & Guaranteed Safe Checkout",
+            "text_truck": "Secure Payment & Safe Checkout",
             "truck_col": "#212121",
             "truck_fs": 13,
             "image_leaf": "shopify:\/\/shop_images\/Risk_Free_60_Days_Money_Back_Guarantee.png",
-            "text_leaf": "Risk Free 30 Days Money Back Guarantee",
+            "text_leaf": "Risk Free 3-Day Money Back Guarantee",
             "leaf_col": "#212121",
             "leaf_fs": 13
           }
@@ -410,7 +410,7 @@
         "template--16272240181463__dc563667-6319-4e18-a0b0-b330a51821ce-1668700359c4cc5bd5-0": {
           "type": "text",
           "settings": {
-            "media": "stars",
+            "media": "stars-brand",
             "image_round": true,
             "text": "<p><em>\"Works like a charm. Definitely worth a try if you need an acne remedy.\"<\/em><\/p>",
             "name": "Brenna",
@@ -420,7 +420,7 @@
         "template--16272240181463__dc563667-6319-4e18-a0b0-b330a51821ce-1668700359c4cc5bd5-1": {
           "type": "text",
           "settings": {
-            "media": "stars",
+            "media": "stars-brand",
             "image_round": false,
             "text": "<p><em>\"The usefulness of these patches makes them worth every penny! I just wish I discovered them sooner!\"<\/em><\/p>",
             "name": "Paula",
@@ -430,7 +430,7 @@
         "template--16272240181463__dc563667-6319-4e18-a0b0-b330a51821ce-1668700359c4cc5bd5-2": {
           "type": "text",
           "settings": {
-            "media": "stars",
+            "media": "stars-brand",
             "image_round": false,
             "text": "<p><em>\"I love this product so much it. Glad I discovered it and gave it a try. It helps me with my under the skin zits.\"<\/em><\/p>",
             "name": "Carly",

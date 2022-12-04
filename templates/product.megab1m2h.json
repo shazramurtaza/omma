@@ -83,11 +83,11 @@
             "show_tax_notice": true,
             "show_separator": false,
             "low_stock_img": "shopify:\/\/shop_images\/IconExclamation.png",
-            "low_stock": "<p>Save $63! Best deal on the market<\/p>",
+            "low_stock": "<p>Holidays Sale: <strong>40% OFF + Free Shipping<\/strong><\/p>",
             "low_stock_fs": 13,
             "low_stock_col": "#000000",
             "limited_time_img": "shopify:\/\/shop_images\/omma_clock_icon_21c4609d-1f04-483c-9520-e752922f5bbd.png",
-            "limited_time": "<p>40% OFF + FREE Shipping<\/p>",
+            "limited_time": "<p>Save $63! Best deal on the market<\/p>",
             "limited_time_fs": 13,
             "limited_time_col": "#212121",
             "limited_time_bg_col": "rgba(0,0,0,0)"
