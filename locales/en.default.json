@@ -374,7 +374,7 @@
     "checkout": {
       "order_summary": {
         "shipping_default_value": "Holidays FREE Shipping",
-        "discount_placeholder": "Discount code (only the largest discount will apply)"
+        "discount_placeholder": "Discount code (only one per order)"
       },
       "marketing": {
         "accept_sms_checkbox_label": "Text me important shipping updates and discount offers",
