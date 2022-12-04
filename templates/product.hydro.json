@@ -102,7 +102,7 @@
             "tab_content_1_fs": 15,
             "tab_content_1_col": "#262626",
             "tab_content_1_lh": 21,
-            "tab_2_title": "Description",
+            "tab_2_title": "Info",
             "tab_content_2": "<p>Invisible 10 mm patches with <strong>active Hydrocolloid<\/strong>, great for extracting pus and clearing whiteheads, protecting the area while your skin heals.<\/p><p>Infused with <strong>acne-fighting Salicylic Acid<\/strong>, the pimple patch will flatten pimples overnight and reduce redness. <\/p>",
             "tab_content_2_fs": 15,
             "tab_content_2_col": "#262626",
@@ -191,11 +191,11 @@
           "type": "icon_text",
           "settings": {
             "image_truck": "shopify:\/\/shop_images\/Secure_Payment_Guaranteed_Safe_Checkout.png",
-            "text_truck": "Secure Payment & Guaranteed Safe Checkout",
+            "text_truck": "Secure Payment & Safe Checkout",
             "truck_col": "#212121",
             "truck_fs": 12,
             "image_leaf": "shopify:\/\/shop_images\/Risk_Free_60_Days_Money_Back_Guarantee.png",
-            "text_leaf": "Risk Free 30 Days Money Back Guarantee",
+            "text_leaf": "Risk Free 3-Day Money Back Guarantee",
             "leaf_col": "#212121",
             "leaf_fs": 12
           }
@@ -332,7 +332,7 @@
         "template--16272240115927__875f8b19-d2a7-4eb3-bd99-70d271835bd1-1668701394c533272c-0": {
           "type": "text",
           "settings": {
-            "media": "stars",
+            "media": "stars-brand",
             "image_round": false,
             "text": "<p><em>\"I tend to get many \"overnight\" pimples. I sometimes wake up with white heads on my t-zone area. If I put these patches on in the morning, they get completely drained by evening. It's amazing! I would love to see larger patches for body acne.\"<\/em><\/p>",
             "name": "Dani",
@@ -342,7 +342,7 @@
         "template--16272240115927__875f8b19-d2a7-4eb3-bd99-70d271835bd1-1668701394c533272c-1": {
           "type": "text",
           "settings": {
-            "media": "stars",
+            "media": "stars-brand",
             "image_round": false,
             "text": "<p><em>\"Great product. You can actually see it working when you remove the patch in the morning. Really reduces the amount of time you have to deal with pimples.\"<\/em><\/p>",
             "name": "Sherrie",
@@ -352,7 +352,7 @@
         "template--16272240115927__875f8b19-d2a7-4eb3-bd99-70d271835bd1-1668701394c533272c-2": {
           "type": "text",
           "settings": {
-            "media": "stars",
+            "media": "stars-brand",
             "image_round": false,
             "text": "<p><em>\"These work wonders! I even forget I have them on. You can't feel them and they are sheer, almost invisible and also stick very well to the skin. I'm African American, so even for my skin tone you can barely see them.\"<\/em><\/p>",
             "name": "Sheana",
