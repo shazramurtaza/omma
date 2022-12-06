@@ -228,7 +228,7 @@
       "announcement": {
         "type": "announcement",
         "settings": {
-          "message_show": true,
+          "message_show": false,
           "home_page_only": false,
           "message_text": "🎁 Holiday Sale: 20% OFF + FREE Shipping 🎁",
           "message_link": "shopify:\/\/collections\/acne",
