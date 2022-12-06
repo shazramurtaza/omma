@@ -231,7 +231,7 @@
           "message_show": true,
           "home_page_only": false,
           "message_text": "🎁 Holiday Sale: 20% OFF + FREE Shipping 🎁",
-          "message_link": "",
+          "message_link": "shopify:\/\/collections\/acne",
           "message_color_bg": "#212121",
           "message_color_text": "#ffffff"
         }
